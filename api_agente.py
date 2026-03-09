@@ -20,6 +20,7 @@ if os.path.exists(env_path):
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 
 # Importar herramientas del agente
 try:
@@ -44,6 +45,15 @@ app = FastAPI(
     title="API Agente Onboarding - Message Design",
     description="API para integrar con GoHighLevel Chat Widget",
     version="1.0.0"
+)
+
+# Configurar CORS para permitir conexiones desde cualquier origen
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Modelos de solicitud
