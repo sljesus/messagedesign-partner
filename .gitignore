@@ -2,3 +2,6 @@ videos/
 agents/.adk/
 __pycache__/
 *.pyc
+.env
+agents/.env
+*.env
