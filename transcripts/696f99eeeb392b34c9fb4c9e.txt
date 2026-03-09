@@ -1,0 +1,736 @@
+Okay, friends, we are here to demonstrate in about an hour how we can set up an entire system on one platform that you can have for less than $100 a month that are going to do everything that I promised in the last two videos.
+So you're going to have a way to communicate with your contacts effectively through email, SMS and direct messages. You're going to have a way to sell, request and receive payments easily. And basically you're going to have a store that you can sell both physical and digital products. You're going to have a system to grow and nurture your audience on autopilot. And so this is like a newsletter. This is a contact us form. This is, you know, nurture sequences, et cetera.
+You're going to have a space that you own on the internet. So I'll show you how to set up a website, like your own home place, and then how to connect that to social media as well.
+And then you're going to have an appointment setting and time management system so that people can schedule time with you, which is obviously one of the most critical things that you need as a coach. And then, you know, it makes it effortless.
+So you're gonna have appointment reminders and, you know, a way to make sure that your time is always organized and efficient. So let's get started. Let's dive right in.
+Um, the first thing that we're going to do on this platform is we're going to set up some essential integrations I'm going to use. So in order to do that, I'm going to come to our integrations section here.
+And I'm going to be demonstrating everything today using Google, as you can see here, you can also do this with outlook and with other platforms as well, but I'm just going to use Google because it's very straightforward.
+And, um, it's, it's my preferred platform, but, um, this is also works with Microsoft 365, et cetera.
+So the first thing that we're going to do is sign into our Google accounts. This is the account I'm going to be using today.
+I'm going to authorize, uh, this integration to happen.
+Basically what I've done is I've now, uh, connected, you'll see here in just a second, once it refreshes, you'll see that my Google account is now connected to this platform.
+Right. And that's going to enable us to do a couple of great things because it's going to be able to connect to my Google calendar.
+It's going to be able to connect to my, my Gmail. And that way, again, some of those promises about a seamless way to communicate, uh, set up appointments, you know, make sure that my calendar is managed, et cetera.
+Um, we can fulfill those very, very easily. The second thing I'm going to do here in integrations is I'm going to set up a, uh, connect to a Stripe account.
+Stripe again is the default that I like to use, or we like to use because, um, it's just, you know, it's, it's the web standard at this stage.
+Uh, it's trusted all over the world and essentially all the world.
+And, um, it works seamlessly. It works really, really well.
+Um, you can also use other payment systems.
+You can use PayPal, you can use authorized.net.
+You can use, um, uh, the other ones are escaping me right now, but there are other ways to do it.
+But again, Stripe is one of those systems that was built thinking about integration, uh, first.
+And so that's where we're going to use it.
+And of course I'm going to, all I have to do is click on continue.
+Uh, again, you can see here, there's a bunch of other ways to integrate.
+If you want to use PayPal, authorized net, et cetera, I'm going to use Stripe.
+I'm going to connect here.
+Um, obviously I'm not going to show you my Stripe account.
+And again, I'm going to connect here.
+I'm going to connect these two, uh, systems and Shazam.
+So now if I go back to that integration setting system section, you're going to see that I
+not only have Google connected, but I also have Stripe not connected.
+So now what that allows me to do is connect my communication systems, my calendars.
+Uh, and it also allows me to create a store where I can receive payments seamlessly.
+So that we just did those really, really quickly.
+The next is I'm going to just quickly set up the profile that I have.
+So on this particular account, I have my business profile upload, you know, creating a business logo.
+I'm going to put my logo here for my business.
+Um, obviously you'll want to have one that's, you know, rectangular.
+Um, my business name is, uh, IBDSG.
+It's international solutions group.
+That's what we would call it.
+Um, the business email that I have is the same one that you've seen here.
+Uh, and if you want to put your website here, um, we'll, we'll put that there, but I'm going to actually show you how to create a website as well.
+So this doesn't create the website, but this, you know, so I'm going to update that information.
+Fantastic.
+And then, um, we can also, so this is the information about my business.
+So again, you can see here, um, um, you can put, um, um, uh, you know, whatever you want in here for your business, uh, your, your, uh, your proper business information, et cetera.
+And we'll update that as well.
+So now all of our business information is updated.
+Then you'll want to also update your own profile information for yourself as a user, right?
+And, um, again, I'm just going to come in here, choose a picture of me.
+Shazam.
+There we go.
+That's my name.
+There you go.
+But in this, my profile section, you'll see here, we, we want to make sure that we connect our Gmail here.
+We're going to select all.
+So now that Gmail is connected, but you can see right now, because I integrated my, uh, my Google workspace with this, you'll see it's already connected to my Google calendar, which is fantastic.
+And I'm going to now link a calendar down here.
+I'm just going to collect, you know, choose the calendar that I want to link.
+Let's let it do that really quickly.
+And then this is an important piece as well.
+So the conflict calendars, right?
+So if I had, um, uh, you know, this is a work calendar, right?
+This is a professional calendar, IBDSG.
+But if I had, um, you know, let's just say a family planning calendar, cause my, you know, for kids who go to sports or, um, you know, I have a group that I, you know, maybe I have a church group or something like that, that also has a calendar.
+You can link those calendars in here as well to make sure that you don't have appointments that get set over things that you've already scheduled, right?
+You want to make sure those, those other calendars show where their conflicts are.
+So you would add those, um, uh, to this calendar and you can just click on edit and then you can, uh, put those other calendars.
+And then you see that I have other ones that I could add there.
+As a matter of fact, let's just demonstrate that.
+So if I want to do my family calendar, you know, here's my, my personal stuff.
+I do with my friends.
+Here's a, you know, another, another calendar that I have.
+I'm going to save those.
+I'm going to let that be updated.
+And so now anytime we have a calendar appointment setting system, it's going to look at all four of those calendars in order to determine what spaces I have available.
+So what we've done thus far as we've connected, uh, Google, we've connected Stripe.
+So now we're, we're fully integrated with communication systems with calendars, uh, and a payment system.
+And now, so now we're going to actually start to dive into the building out of a business, right?
+We've got, uh, and so what we're going to do there is first, we're going to connect a domain.
+So I'm going to come back, um, to the, uh, settings section and I'm going to come down here to domains and I'm just going to click on domains.
+And you'll see that inside this platform, I do not have any domains, uh, connected yet.
+So I'm going to connect my domain and I'm going to put it right here.
+Uh, and I'm going to say that I also want to add the triple W IBDSG because that what, what that will do is it will create an automatic redirect.
+If, if you're familiar with those terms and I'm going to click on continue.
+So it's the system, the platform is now going to go out and find my, what's called my domain domain name settings.
+It's found that I'm, I'm on Cloudflare and it's going to add these settings to my, my domain names, uh, server so that my website will now appear, will, will now be a part of this platform.
+So I'm going to authorize that.
+And you could see that, um, you know, I had my website connected elsewhere.
+And so I'm just going to, um, do that right now.
+So now it is authorizing those and making those changes in Cloudflare for me.
+So it connects my domain.
+And so now you can see that both, uh, both those domains are now connected.
+And if we were to go over to Cloudflare, we would see that those records have been updated.
+Um, I'm going to, okay.
+So we, we have those, that's all created correctly.
+So now we've connected a domain.
+So now what we can do is we can actually build a website, right?
+And this is critical piece.
+So we are so used to now in the world, you know, you have to go out and buy a domain, you know, you register your domain name and a registrar.
+That's one, one step you have to do.
+Then you have to make sure that that registrar can point the name to a website host, right?
+And then that website host will then be, that's the, that's the computer out there in the cloud where your website lives.
+So when somebody types in www.ibdsg.com that then, you know, your website shows up.
+But in this platform, I can now create a website.
+Um, and I don't have to pay any other hosting fees.
+So again, I'm keeping it less than a hundred dollars a month for all of these tools combined, right?
+So I'm going to go to the section called sites.
+So now I'm going to come over to the website section here and you'll see there's nothing in here.
+So I'm going to create a new website and you'll see that I have the option of creating something from blank.
+So I could just start from scratch.
+If you're super comfortable and you want to build a website, uh, you know, and take the time to do that.
+That's great.
+But my promise is that we can do this in about 45 minutes.
+So I'm going to actually choose one of the templates they have, and I'm going to continue.
+Let's choose this one and see what we get.
+We'll look at a preview.
+You got a great, you know, this is the, you know, a great template.
+You can see that we've got classes, we've got a team, we've got an about us page.
+And so, uh, I'm going to click on continue.
+It's adding the template to it, uh, to my, to my platform right now.
+Okay.
+You can see now that it's added that template to my account here.
+Um, I'm going to click in and, um, I'm going to click on the settings here because I'm just going to call it the, uh, website.
+And I'm going to just change that.
+These two little pieces here just because, um, we want to give it the name that, you know, that we want.
+And so now you can see that we have these three pages that have already been created for us.
+By going in, we can click on edit.
+It's going to load up a web builder for us.
+And this is how easily, you know, you can come in and, um, you know, change what's on this, uh, what's on this website.
+So, um, how to make you a better professional.
+Um, you know, we work, whoo.
+You know, it is what it is.
+So there, if I wanted to come up here and, uh, change the logo, we would just come down here.
+Um, find the logo here in the assets.
+We're going to come and we'll, we'll upload a logo.
+Yeah, we're doing that.
+We'll choose that one.
+Boom.
+And we're going to make it only, let's just say, we're going to make it a hundred.
+Let's just see.
+There you go.
+On the left there.
+If I wanted to change the menu items, um, you know, let's just say that I've got a, uh, a special menu item.
+That, um, I want to add in here that, you know, what we'll call this, um, store.
+Um, let's not put a store cause we might put a store later.
+Um, and, um, got trainings.
+We've got book, you know, let's just, we'll, um, we'll add this book and you can see how easily we can change where that menu item goes.
+And that way, shazam.
+Now all I'm going to do is save it.
+Save my work.
+So you see right here, there's actually, you know, a URL.
+It's just kind of some craziness right here.
+And I'm going to connect the domain here so that that changes.
+Shazam.
+Shazam.
+So now if I go to IBDSG.
+Home, right.
+If I take that, I'm just going to publish this.
+I'm going to update the SEO.
+We're not going to worry about that.
+So you can see, you can do any kind of SEO work or whatever you want.
+Um, it's now published to the web.
+And, um, if I go to IBDSG.com home, this webpage actually exists here.
+So we now have an, uh, we literally have a website that's up and running and you can see the world.
+So, you know, going through and editing that, um, you know, you can do that at your, as your heart's content,
+but we have an up and a website that's up and running.
+And I'm going to show you in a few seconds how we can add an appointment calendar to this,
+how we can get people to sign up for our newsletter, et cetera.
+So again, we're all going to, we're going to have all of that done here as well.
+Um, so website is now up and running.
+And again, remember, we're not paying another dime for it.
+This is all part of the same platform here.
+Okay.
+So now that our website is up and running, we now want to actually create a way for people
+to schedule appointments with us, right?
+That's absolutely critical for any coach, for anybody running a practice.
+You need to have a way for people to book a time.
+And that can be, um, you know, a one-on-one call that could be a group call, et cetera.
+I'll show you in just a second.
+So first we're going to come over to calendars and we'll click on calendar settings.
+And you'll see, there's no, it says there's no calendars here.
+So this is a little strange in this platform that they call it calendars, but these are actually,
+you know, how do I build a new appointment setting a piece?
+So I'm going to create a new one.
+And as you can see here, there's several different types that you can choose.
+You could do a one-on-one call, which is what we're going to do.
+You could do a class booking.
+So if you want to have multiple people, a group of people show up for an online class
+or something like that, or a webinar, um, you can do a round robin.
+If you have several salespeople in your practice, maybe virtual assistants or something, you can,
+uh, uh, you, uh, you have those sales calls come in in a round robin fashion.
+So it gets distributed between those people.
+You could do an event, et cetera.
+So there's a bunch of different choices that we have here.
+And already that I'm going to click on personal booking and we'll call it a discovery call with me, right?
+The team member is me.
+You could choose a deal.
+And again, if you have multiple team members, you can put, um, those in there for the round robin, et cetera.
+I'm going to call it, I'm just going to give it a, uh, we'll call it discovery call with Latic.
+Um, so that's, uh, you know, a unique name for it.
+Uh, we'll give it a half hour.
+We'll say that, you know, I'm available from Monday through Friday, et cetera.
+If you wanted to put advanced settings, uh, we can come in here and do that as well.
+Um, so this is the name of the calendar that they're going to have.
+Uh, when they come down that, that, that invite, that's going to go, um, onto the calendar invite
+that we're going to send out to them.
+Uh, we want to put that here.
+So, uh, your discovery call with me.
+Um, and then if you had a meeting location, so if you have a zoom account, you have my,
+if you prefer teams, if you, you know, where, where do you want to meet them?
+Right.
+In this case, um, I'll just use my, my zoom account.
+Um, that's my default zoom account, like the color green.
+I wanted to show up green on my calendar.
+Um, we'll save that for a second, just to make sure we save that information.
+Um, then we'll go to our availability.
+Again, you can change these.
+So let's just say I don't do discovery calls on Fridays.
+Um, and month on Monday, I start at 10 AM and I'm going to add that.
+And then I'm going to, um, only do discovery calls until 3 PM.
+You can set your own schedule, right?
+And you can actually set this default back in the, my profile section.
+So that these are, uh, the, the, these default times, uh, stay in there.
+And then you have just like on a Calendly app or tidy call or, or HubSpot or any, any one of these,
+you can tell, you know, how long do you want the meeting to be?
+Um, how long should people, how long before the meeting, uh, do you,
+you want to limit people to booking?
+And I say, like, you can't do it for, for eight hours.
+You have to book a time with me for eight hours before.
+Um, I want to create some urgency.
+So I'm going to say, look, there's only, I'm going to give people only, um, you know,
+seven days that they can book a time.
+So I'm going to limit it.
+Um, and I'm only going to do two discovery calls a day.
+Um, I'm not going to worry about buffer time again.
+So I'm going to save this information.
+If you, um, one thing that's really, really important here is if, if you want to have,
+you know, when somebody books the call, it's, it'll just give you a thank you.
+Right.
+But if you have like a thank you page that you want them to go to that you could create
+on your website or something else, you can also just use this redirect URL to send them
+to a thank you page or send them to another call to action.
+Let's just say like, it's a download a worksheet that you want them to do before the call or
+something like that.
+You could do that as well.
+So that's easy enough.
+Um, notifications and additional options.
+One thing that we want to do here is we want to allow Google, uh, to send calendar invitations.
+So we're going to click on that.
+And I believe go to customizations.
+Yeah.
+If you wanted, if you wanted to put an image with this, we're not usually that's not necessary.
+Um, uh, but one thing that we want to put in here that we didn't do in the beginning is
+a description.
+So please choose a time to meet.
+Uh, and we're going to save this.
+Okay.
+Awesome.
+So we're going to close this.
+So now you see this, this calendar is here.
+And if I wanted to share that, right?
+So we have a couple of different links that we can do that with again.
+I'm just going to come over here.
+We'll go to that calendar link and you'll see Shazam.
+Now somebody can come in and over the next seven days, these are the times that I have
+available for them to schedule this time.
+Let's just say 9 30 tomorrow and boom, here we go.
+Uh, you know, everything is, um, as, as you'd expect, they put the first name, last name,
+their phone number, their email.
+Um, they can put in additional information, et cetera.
+And you can customize this as well to add additional fields, but that's a pretty standard booking
+call.
+Now here's the thing.
+So now that we have our calendar system, we actually need to make sure that this person
+is going to show up to our, uh, our appointment.
+And so we're going to, um, come over to automations and we're going to create an automation.
+We're going to select a recipe again in this platform.
+And I know that there's one down here.
+See, see, it says appointment confirmation reminder here.
+We're going to add this to the platform.
+And what we have here is we have an entire automation that you can see, you know, starts
+at 24 hours before the, uh, the appointment, then one hour before the appointment, then five
+minutes before the appointment.
+And what we need to do is we need to first say, you know, what triggers this?
+And I'm going to come down here and I'm going to say that if there is an appointment that
+was in the calendar discovery call with letting, right?
+So we'll, we'll add that.
+So that trigger is now updated.
+So, um, we've, we've added that and then we can just say, we want to name it so that we
+can see what, what, uh, part of the, what, you know, what's going to trigger this workflow.
+Then what we would do is we would come through and we would update each of these templates
+that are already here.
+So again, there's a confirmation email.
+We can put what, you know, what our name is.
+We can put, my name is Steven Ladick and the location email is et cetera.
+And then, you know, you definitely want to say, put that in there and then they've given
+you some template text here, but then you can update what you want this text to be.
+You can make it as pretty as you want.
+Um, and you know, you can customize it as much as you want and you would say, you know, add
+your signature in there, et cetera.
+And so we will save this and then we would publish it.
+Right.
+And then this automation is now live.
+So after I've come after I have, uh, customized each of these emails, um, uh, that, you know,
+this whole thing is live and they will receive these emails as, as reminders.
+You also, you'll see here that there's also SMS options as well.
+So if you have someone give them, give your, give their phone number, you can also send SMSs
+as well.
+There's a direct messages, um, to their phone, or you can, if you know, if you don't want to
+do that, um, you can actually just choose to delete this and Shazam, it just takes it away
+out of that automation.
+So there you have it.
+So now we have an appointment calendar where people can book with us and we have a way where
+we're going to follow up with them so that we make sure that they're actually going to
+show up and, uh, you know, come to that discovery call so that we're getting them booked inside
+our meeting.
+If we wanted to put that appointment calendar, um, you know, or if we wanted to put that onto
+our website, you know, we would simply, um, go back to our calendars and we would go to
+our calendar settings and we would take the, um, you know, the, the booking link, and then
+I'm going to go back to sites.
+I'm going to go back to that website that we built.
+It was, uh, you know, on that homepage, it says book an appointment, right?
+So let's look at this button.
+We'll change the text of that button.
+We'll just say book a, right?
+We'll put book a discovery call now, and then we can link it to a website URL.
+You could link it to a different page.
+You could do all kinds of different things, right?
+But I'm going to put that URL in there.
+And again, I'm just going to save this and I'm going to publish it.
+We don't need to update the SEO.
+I'm going to publish it again.
+Let's preview the page.
+And again, book a discovery call.
+We click on that button.
+Boom.
+Now it takes us to the discovery call.
+And then again, remember if you wanted to put that redirect at the end, after they booked
+their link, they could come back to your webpage to a nice thank you page.
+So wow.
+So we've really done a lot already.
+Right.
+And we're, you know, what, 20 minutes into this, excuse me.
+Now the next thing that we want to make sure we do is that we want to build a way to nurture
+and grow our audience, right?
+So we want to build a newsletter and we want to then have people be able to sign up for that
+newsletter and then send a newsletter out on a regular basis.
+So in order to do that, I'm going to come over to marketing, excuse me.
+You'll see here that we have, I'm not going to demonstrate this today, but you can connect
+to your social accounts, et cetera, et cetera.
+But the first thing that we need to do is actually need to build a form.
+So sorry.
+The form that we need to build is up here.
+We go up to forms.
+We're going to build a form and we're going to add a form to this list.
+I'm again, I'm going to choose one from a template just for the fun of it, because it
+makes a little faster.
+And again, I promise you that we get all of this set up and running and then just under
+an hour.
+And let's just say, you know, we want to right here, generic registration.
+Look at that for our, what if we put a type in newsletter?
+Let's see what happens.
+Yeah.
+We don't like that.
+Um, purple, gray, we'll see.
+Let's just see what this one looks like.
+We'll continue here.
+And then we have a form or I'm going to, I'm going to call this newsletter signup.
+So that's great.
+Um, we'll just keep that image there.
+I'm going to actually add an element.
+I'm going to add some text to this form.
+We'll put the text down here and say, and we'll make it a little smaller.
+We'll make it 24 font, maybe put it in, you know, center it.
+So Shazam, and we're just asking for their first name and their email.
+And then instead of submit, let's, let's say we'll make it a nice call to action there.
+Like, yes, sign me up.
+Right.
+So we're going to save this, save this form.
+Now we have the form created.
+So now what I'm going to go back to is I'm going to go back to, um, back to my website.
+We're going to go to again, websites, go to the website.
+Um, look, there's a, I just realized there's that thank you page that we could have put
+in the, in the URL.
+Right.
+So now let's, um, let's put it on this homepage.
+We'll find it.
+We'll find an interesting place to put it.
+Um, you know, here, blah, blah, blah.
+So you can see here, um, I'm going to, I'm going to add a form to this webpage.
+That's, I'm going to look for form.
+We'll bring that in here.
+Uh, then I'm going to select the one that I just created, which is newsletter signup and
+Shazam.
+You can see here, we'll, we'll get rid of this, this button because we don't need anymore.
+But now our form is on this webpage.
+Um, and we'll use the action from the form builder after, you know, when somebody signs up.
+So we're going to just save that again.
+If we publish it and then preview the page.
+If we go down to the bottom of the page now, you'll see this form is here.
+Now again, we have to make sure that we have, uh, you know, what happens when somebody, you
+know, uses this form, right?
+So there's two things that we want to do.
+We want to first thank them and we want to make sure that they are, uh, acknowledged that
+they, uh, have signed up for the form, sorry, sorry, signed up for our newsletter, but then
+we want to nurture them, right?
+So we're going to go back to automations.
+And again, we're going to create, uh, we're going to select a recipe, um, there was a nice
+nurture sequence around here, oh, right here, long-term nurture reactivation email sequence
+right here.
+And again, what we would do is we would, you know, um, we'll just call this nurture.
+And again, we have to add a trigger.
+So I'm going to put a, I'm going to look for a form and I'm going to say, what form was
+submitted?
+I'm going to say the form is the newsletter signup or save it there.
+Oops.
+Let's just say you punk.
+And I'm going to save that.
+And then, you know, rather than waiting for one month, let's get rid of that.
+Oops.
+We're just going to delete that action.
+And then this one says, Hey, you know, this one says, thanks.
+You know, we just say, thank you for signing up.
+So you can put whatever language that you want in there, we're going to save that.
+We'll publish it.
+We'll say that as well.
+So now we have a nurture sequence that will, um, take people through, uh, about, you know,
+things about our practice, things about, you know, the problems that we solve things about,
+you know, your particular process so that, you know, you continue, they get to know you
+better.
+And, um, uh, not only they get to know you better, but they, uh, you know, have opportunities
+to come and choose to work with you, purchase some of your products or, you know, come into
+your classes or come into your, uh, come into your universe somehow.
+So now we have that nurture sequence built.
+And then the second thing that we need to do in order to make sure that they are now on
+our newsletter is that we need to actually, um, Oh, we forgot this as a part of that nurture
+sequence.
+That was what I forgot.
+We need to actually tag them.
+So we want to actually, uh, add a tag to the contact.
+Let's just see, what do we have?
+We don't have really anything in here.
+So let's just call it news letter signup.
+And we're going to add that new tag.
+So newsletter signup is going to be added to them when they sign up and then they'll,
+then they'll get that, uh, welcome, you know, confirmation email.
+Glad I remembered that.
+So now we're going to go over to contacts.
+We have no contacts here.
+You can see that.
+So anytime that someone is, uh, going to sign up for this newsletter.
+So now let's just say, and we'll call it, um,
+Um, where's my plus we'll just use that.
+Right.
+I'm going to say, yes, sign me up.
+Yay.
+Okay.
+So it's, it's signed me up if we come back to our contacts, I'm going to refresh this.
+You'll see now we have one contact and the contact has also been given the tag newsletter signup.
+That's really important.
+Okay.
+Um, let's just do this, uh, again, um, do that sign up again.
+All right.
+And then if we refresh again, so now we should have two contacts in there and that friends
+is how easy it is to grow a list.
+Of course, I'm totally joking.
+Um, so now we have two contacts and the key thing here is that they both have that tag in
+order to then, um, create a newsletter, which is what we'll do next.
+I'm going to show you that, you know, what we have to do is we have to create something
+called a smart list.
+And so I am going to filter my contacts and I'm going to say, um, first thing is that
+the email is not empty.
+Okay.
+So we're going to say the contact first, they have to have an email address and the tag
+is specifically newsletter signup.
+And we'll also say that the first name is not empty.
+Oops.
+It's not empty as well.
+So we've got, so now we have these three conditions, you know, when we go through our contacts,
+so it says their email's not empty, that they have that tag and that they have a first name.
+And you can see down here at the bottom, I'm going to save this as a smart list and we'll
+call it the, we'll call it the newsletter list.
+Let's put list in there too.
+Always good to name things in a way that you can always recognize them.
+So now we've created this smart list.
+So now let's actually create the newsletter, uh, that will be sent out.
+The first thing that we need to do is we actually have to create a template for our newsletter.
+So I'm going to come over to the marketing section in this platform.
+And you'll see here that emails, there's campaigns and templates, so campaigns are the emails
+that you actually send.
+And the templates are the, you know, the actual templates that you use to, to, to, to create
+those emails.
+So let's create a new template.
+So I'm going to, you can click on either button.
+I'm going to click one from, uh, email marketing templates and let's just, let's just do something
+really basic.
+So it's nice and easy.
+Look at that.
+Wow.
+So I'm going to continue, it's going to add it.
+And again, you'll see, we have this builder, this placeholder here.
+I'm going to let's upload it.
+We're going to put our logo in there, double click that.
+Boom.
+There you go.
+We say, hi, and rather than welcome to the course, we're going to say monthly newsletter.
+And then we'd say, you know, this, these, you could see here, high contact name in, in
+this, in this template now, you're going to say, you know, what are the, what are the
+parts that you would want to have for your newsletter?
+Um, you'd probably want, you know, part one is new, um, ideas for the month.
+Uh, part two is, um, oops, success story of the month.
+Maybe you feature other, you know, some of the entrepreneurs you work with.
+And then part three, um, is my monthly incredible offer, right?
+So now you've got these, this three part template, um, and then obviously you sign it because
+you want to personalize it, right?
+And then you can change your links down here, et cetera, et cetera.
+But what we're doing right now is we're just creating a template.
+And I want to, I want to put this here as I, so I'm going to name it so that we know that
+this is a, my template for my newsletter, I'm going to save the template.
+So now that we've created a newsletter template, we want to actually go back and create the
+campaigns, right?
+So if I come in to create a campaign, you'll see that there are no campaigns that we've
+created and we want to click on create a campaign.
+And now this is where, you know, it can kind of be a little, little strange.
+We're actually going to choose the template that we want to use.
+So, okay.
+We want to choose that.
+And the very first thing is we want to, uh, change this title.
+So we definitely don't get confused and we'll, we'll call this the, um, you know, I'm recording
+this in November.
+So we'll call this the December 24, uh, newsletter.
+And then we would come in here, we'd actually put this information in here, you know, my,
+my new idea for this month is to actually go and sell every day.
+Cause that's what most entrepreneurs forget to do.
+Uh, the success story is, um, I'd like to introduce you, you know, and one of your clients and my
+incredible offer is you can get, you know, six months of coaching for only three months.
+It's your black Friday sale, et cetera.
+Right.
+So we're going to, uh, so we're going to save this.
+And so now we're going to sit and you see up here in the, uh, the blue button, then we're
+going to send or schedule it.
+Uh, we have to put where it's coming from, it's coming from Steven at IBDSG.com.
+Oh, apparently I have not verified my, um, address.
+Let's go verify my email.
+There's an email that we got one second.
+I'll be right back.
+This is how easy it is to verify your email.
+Shazam.
+Okay.
+We're, we're now verified, uh, the sender name, um, will be Latic at IBDSG.com.
+The subject line is going to be, we'll put the subject line in there.
+If you want to put preview texts, it is a good one.
+And then here's the thing.
+So who are we going to send it to?
+We're going to do specific contacts.
+We're going to send this, this, and this is where you can see, we're going to send it
+to a smart list.
+And then we actually have to choose what smart list that we're going to send it to.
+So I'm going to click on the plus, and then we have the IBDSG newsletter list, boom.
+So now we have added that, um, what we have not, oh, we're going to, I chose send.
+Now we actually want to schedule this for a time.
+And so we're going to schedule this, you know, December, you know, we'll do it on the first
+Tuesday of December.
+We've updated that.
+We've done that.
+So now we would review it and schedule it, boom.
+And now you can see that it's actually scheduled and it will be sent out to those contacts
+in December.
+And this is a beautiful thing because now if you had a monthly newsletter or even a weekly
+newsletter, you can now come in and create newsletter for January, for February, for March,
+April, May, June, right?
+You could schedule all of those and create them.
+You know, we call that chunking your time.
+And so that once your time is chunked out, you don't have to worry about your newsletter.
+You know, you can build out the newsletter for the entire year, do that all in one session
+in one day or two days.
+And it's all done.
+Boom.
+And then it's going to go out like clockwork.
+And the wonderful thing about the smart list is that it's going to continue to add new
+people to it.
+And, you know, it will take away people as well if they unsubscribe and you don't have
+to worry about whether or not, you know, you're adding people to the newsletter list or not.
+So folks, the last thing that we're going to do here in our less than an hour setup of
+our, of our, of our company with those five essential things is that we are going to
+create a system for you to buy and sell, right?
+So we already have connected Stripe.
+And so you could come into the payment system here and you can see how easy it is to create.
+The first thing I'm going to do is I'm going to create a product for people to buy.
+And in my case, I'm going to, you know, you could create a coaching session here.
+Hey, look, it's $500 coaching sessions, create a coaching session.
+You could create an online class.
+You could create, you know, a webinar, you could create anything, any kind of digital product.
+You can also do physical products.
+Um, and in this case, I'm going to do something that's kind of a hybrid, right?
+I'm going to actually create a product that is, um, my ebook and this is an, I'll put a description
+for it.
+Um, I'm going to actually, you know, put a little, um, where's that, we're going to upload
+that.
+So there's my cover photo, Shazam, we've added that you can, and you can do multiple files,
+right?
+Um, you know, 10 different images of your book or of the, you know, the sweater that
+you're sending, or, you know, what other physical product you can do that as well.
+I'm going to put a price in here.
+I'm going to say it's $25 and I'm going to save it.
+So now we have a product that people can buy.
+I think we do need to create a payment link.
+Let's do that.
+I'm going to select a product.
+There's my ebook, right?
+Allow coupon codes in case I want to create a coupon for them to get it for free.
+Maybe that's what I want to do.
+And I'm going to, we'll just call it the ebook and we'll save it.
+Great.
+Now, if I wanted to send that to somebody, I could just take this payment link, send that
+to a, send that to a client and Shazam.
+This is actually live right now because my Stripe account is connected to it.
+You could come by my ebook, uh, and you click on pay.
+So what we would do is we would, we would then create another automation that says, you know,
+when somebody actually buys this product, send them the ebook, right?
+So that's, you would do that really quickly.
+But now look, we just did that really quickly, but to get in under the hour mark, we've created
+this product, but I want to go back and I want to show you, look, we come to our site.
+I'm going to go to my website, I'm going to open it up and I'm going to show you something
+that's really, um, kind of interesting here.
+Open up the homepage.
+And then I'm going to click on this button right here.
+And I'm going to click on store.
+And so you can actually click, you can add an online store to your website.
+This easy.
+I'm going to click on add to sites.
+You'll see that it's going to add.
+And what, what it does here, you'll see already it's, it's in the middle of the page here.
+It's added that cart button.
+It's going to add, um, an order feature.
+It's going to create a catalog.
+It's going to do all kinds of cool stuff.
+So we'll just give it a few seconds to build those components.
+And now when we go back to our website, uh, overview, you can see that it's, uh, created
+a product list.
+It's created a details, uh, um, template, a cart, a checkout and a thank you page for
+when you make a purchase.
+And then if we go into, um, our website again, we want to go to the menu and we'll go up, go
+down to the menu and we're going to add an item.
+Uh, we'll go to the product collection and we'll go to store and see them publish it.
+Just refresh this store is here, we'll go to our products and you can see here, um, obviously
+I need to add my logo up here, but we can actually select this product.
+We can add it to the cart, we can then view a cart, view our carts, go to checkout and
+Shazam.
+I can now buy this product, right?
+Again, this is live.
+It's connected to my Stripe account so you could buy this right now if you wanted to.
+Amazing stuff.
+So I just want to review here.
+Um, here's what we've done over the last hour.
+We have, uh, created a way to communicate with our client texts and clients.
+All right.
+So I go into conversations here, excuse me, I'm going to go to my contacts and just so
+that you can see what a conversation looks like.
+I'll go to Auden.
+And here we are Auden.
+We can send, look at that.
+We've already sent him a thank you for signing up email.
+I can come in here and send him an email anytime I want and say, hi Auden, um, and click on
+send and it's going to send him an, uh, it's going to send him an email, Shazam, there it
+is.
+And you can, uh, reply, et cetera.
+You can keep track, uh, of these conversations all here in one place.
+It also synchronizes with your Gmail so that those conversations are happening in Gmail
+as well.
+And when you send, um, when you send the emails from Gmail, uh, uh, to those contacts as well,
+uh, it's synchronized here on this platform.
+We'll go back.
+Sorry.
+Yeah.
+All right.
+So we can, our communicating again, if I go to go back to contacts and I click on Dana,
+I could say, hi Dana.
+And again, I can have conversations with it.
+It shows you what pages they visited, you know, it gives you a complete thing.
+If you want to add a task for that particular individual, you can add a task here. If you
+have notes that you want to take up.
+So it's a really comprehensive customer relationship management system, a CRM.
+And so, um, I just want to recap here because we're coming to the top of the hour, as I promised
+in this platform, we have a way to communicate with our contacts effectively, right?
+So we have a way to communicate with email.
+We can add SMS to this platform without any problem.
+And we didn't do direct messages as well.
+Um, so we can add our direct messaging from Facebook or Instagram, et cetera.
+We also have a way to sell, uh, request and receive payments easily.
+So we come over to our payment section.
+You saw the store that we have.
+If we, um, if we go back to our store, right, um, go back to our store, uh, you, we have
+that in our, in our website and it's ready to go.
+There's our, there's our thing, uh, our book, and we can add that to a cart.
+Uh, the second, the third thing that we have, oh, and I'm sorry, just, uh, you know, you
+can put any product in here.
+So this could be a coaching, uh, um, session.
+This could be a group class.
+This could be a webinar.
+Uh, it doesn't have to be this, or it could be any physical product as well.
+So you have a way to do that.
+You could also send invoices and you can, you can sign contracts as well.
+That's all automatically integrated in this platform.
+The fourth thing, uh, sorry, the third thing is that you needed a system to grow and nurture
+your audience on autopilot.
+So as you saw, we added a, um, uh, we added a, uh, a newsletter, right?
+So people can sign up for your newsletter.
+Then we can nurture them over time through those automations.
+We also have a way for them to, um, contact us whenever we want, but that's the, that
+was the, that was the fifth thing is an appointment setting and time management system, right?
+So it's connected to our calendar.
+And so somebody can not only come and, um, book a book a time with us, but then, you know,
+it's checking to make sure that we have that time available.
+And then it's sending them, sending them that those, uh, automated emails automatically
+to remind them of that appointment.
+And then, um, the, the thing that we wanted to make sure that we do as well is that we
+had our own space on the internet.
+And you saw, you can build an entire website here in just a few minutes.
+And all you have to do is, you know, replace some pictures, replace some texts.
+You can remove any sections that you don't want in, in with the click of a button and you're
+ready to go.
+So there we've done it folks, uh, in less than an hour, uh, more like 45 minutes we have done.
+And we have achieved all of those things that were promised on this platform.
+And I hope you'll join us.
+So, uh, you know, go back to the training.
+I'd love to show you how to set this up.
+I'd love to do an audit for you.
+I would love for you to, to work with me.
+I'm happy to show you how to get into this platform, uh, for less than a hundred dollars
+a month and run your coaching business from here.
+Uh, let's do it.
+And let's do it.
+Okay.

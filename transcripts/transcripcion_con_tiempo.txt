@@ -1,0 +1,801 @@
+[00:00.000 --> 00:17.920]  Okay, friends, we are here to demonstrate in about an hour how we 
+can set up an entire system on one platform that you can have for less than $100 a month that are going to do everything that I promised in the last two videos.
+[00:17.920 --> 00:42.680]  So you're going to have a way to communicate with your contacts effectively through email, SMS and direct messages. You're going to have a way to sell, request and receive payments easily. And basically you're going to have a store that you can sell both physical and digital products. You're going to have a system to grow and nurture your audience on autopilot. And so this is like a newsletter. This is a contact us form. This is, you 
+know, nurture sequences, et cetera.
+[00:42.680 --> 00:51.680]  You're going to have a space that you own on the internet. So I'll show you how to set up a website, like your own home place, and then how to connect that to 
+social media as well.
+[00:52.680 --> 01:03.680]  And then you're going to have an appointment setting and time management system so that people can schedule time with you, which is obviously one of the most critical things that you need as a coach. And then, you know, it makes it effortless.
+[01:03.680 --> 01:12.320]  So you're gonna have appointment reminders and, you know, a way to make sure that your time is always organized and efficient. So let's get started. Let's dive right in.
+[01:12.680 --> 01:28.680]  Um, the first thing that we're going to do on this platform is we're going to set up some essential integrations I'm going to use. So in order to do that, I'm 
+going to come to our integrations section here.
+[01:28.680 --> 01:40.680]  And I'm going to be demonstrating everything today using Google, as you can see here, you can also do this with outlook and with other platforms as well, but I'm just going to use Google because it's very straightforward.
+[01:40.680 --> 01:46.680]  And, um, it's, it's my preferred platform, but, um, this is also works with Microsoft 365, et cetera.
+[01:46.680 --> 01:53.680]  So the first thing that we're going to do is sign into our Google 
+accounts. This is the account I'm going to be using today.
+[01:53.680 --> 02:01.680]  I'm going to authorize, uh, this integration to happen.
+[02:01.680 --> 02:14.680]  Basically what I've done is I've now, uh, connected, you'll see here in just a second, once it refreshes, you'll see that my Google account is now connected to this platform.
+[02:14.680 --> 02:21.680]  Right. And that's going to enable us to do a couple of great things because it's going to be able to connect to my Google calendar.
+[02:21.680 --> 02:30.680]  It's going to be able to connect to my, my Gmail. And that way, again, some of those promises about a seamless way to communicate, uh, set up appointments, you know, make sure that my calendar is managed, et cetera.
+[02:30.680 --> 02:37.680]  Um, we can fulfill those very, very easily. The second thing I'm going to do here in integrations is I'm going to set up a, uh, connect to a Stripe account.   
+[02:37.680 --> 02:47.680]  Stripe again is the default that I like to use, or we like to use 
+because, um, it's just, you know, it's, it's the web standard at this stage.
+[02:47.680 --> 02:51.680]  Uh, it's trusted all over the world and essentially all the world.[02:51.680 --> 02:55.680]  And, um, it works seamlessly. It works really, really well.       
+[02:55.680 --> 02:57.680]  Um, you can also use other payment systems.
+[02:57.680 --> 03:00.680]  You can use PayPal, you can use authorized.net.
+[03:00.680 --> 03:05.680]  You can use, um, uh, the other ones are escaping me right now, but there are other ways to do it.
+[03:05.680 --> 03:12.680]  But again, Stripe is one of those systems that was built thinking 
+about integration, uh, first.
+[03:12.680 --> 03:13.680]  And so that's where we're going to use it.
+[03:13.680 --> 03:16.680]  And of course I'm going to, all I have to do is click on continue.[03:16.680 --> 03:21.680]  Uh, again, you can see here, there's a bunch of other ways to integrate.
+[03:21.680 --> 03:24.680]  If you want to use PayPal, authorized net, et cetera, I'm going to use Stripe.
+[03:24.680 --> 03:26.680]  I'm going to connect here.
+[03:26.680 --> 03:29.680]  Um, obviously I'm not going to show you my Stripe account.        
+[03:29.680 --> 03:34.680]  And again, I'm going to connect here.
+[03:34.680 --> 03:41.680]  I'm going to connect these two, uh, systems and Shazam.
+[03:41.680 --> 03:49.680]  So now if I go back to that integration setting system section, you're going to see that I
+[03:49.680 --> 03:53.680]  not only have Google connected, but I also have Stripe not connected.
+[03:53.680 --> 03:57.680]  So now what that allows me to do is connect my communication systems, my calendars.
+[03:57.680 --> 04:02.680]  Uh, and it also allows me to create a store where I can receive payments seamlessly.
+[04:02.680 --> 04:04.680]  So that we just did those really, really quickly.
+[04:04.680 --> 04:09.680]  The next is I'm going to just quickly set up the profile that I have.
+[04:09.680 --> 04:16.680]  So on this particular account, I have my business profile upload, 
+you know, creating a business logo.
+[04:16.680 --> 04:18.680]  I'm going to put my logo here for my business.
+[04:18.680 --> 04:22.680]  Um, obviously you'll want to have one that's, you know, rectangular.
+[04:22.680 --> 04:27.680]  Um, my business name is, uh, IBDSG.
+[04:27.680 --> 04:29.680]  It's international solutions group.
+[04:29.680 --> 04:31.680]  That's what we would call it.
+[04:31.680 --> 04:39.680]  Um, the business email that I have is the same one that you've seen here.
+[04:39.680 --> 04:52.680]  Uh, and if you want to put your website here, um, we'll, we'll put that there, but I'm going to actually show you how to create a website as well.
+[04:52.680 --> 04:56.680]  So this doesn't create the website, but this, you know, so I'm going to update that information.
+[04:56.680 --> 04:58.680]  Fantastic.
+[04:58.680 --> 05:04.680]  And then, um, we can also, so this is the information about my business.
+[05:04.680 --> 05:29.680]  So again, you can see here, um, um, you can put, um, um, uh, you know, whatever you want in here for your business, uh, your, your, uh, your proper business information, et cetera.
+[05:29.680 --> 05:33.680]  And we'll update that as well.
+[05:33.680 --> 05:36.680]  So now all of our business information is updated.
+[05:36.680 --> 05:41.680]  Then you'll want to also update your own profile information for yourself as a user, right?
+[05:41.680 --> 05:47.680]  And, um, again, I'm just going to come in here, choose a picture of me.
+[05:47.680 --> 05:48.680]  Shazam.
+[05:48.680 --> 05:49.680]  There we go.
+[05:49.680 --> 05:50.680]  That's my name.
+[05:50.680 --> 05:51.680]  There you go.
+[05:51.680 --> 05:58.680]  But in this, my profile section, you'll see here, we, we want to make sure that we connect our Gmail here.
+[05:58.680 --> 06:05.680]  We're going to select all.
+[06:05.680 --> 06:18.680]  So now that Gmail is connected, but you can see right now, because I integrated my, uh, my Google workspace with this, you'll see it's already connected to my 
+Google calendar, which is fantastic.
+[06:18.680 --> 06:22.680]  And I'm going to now link a calendar down here.
+[06:22.680 --> 06:26.680]  I'm just going to collect, you know, choose the calendar that I want to link.
+[06:26.680 --> 06:28.680]  Let's let it do that really quickly.
+[06:28.680 --> 06:30.680]  And then this is an important piece as well.
+[06:30.680 --> 06:32.680]  So the conflict calendars, right?
+[06:32.680 --> 06:36.680]  So if I had, um, uh, you know, this is a work calendar, right?
+[06:36.680 --> 06:38.680]  This is a professional calendar, IBDSG.
+[06:38.680 --> 06:49.680]  But if I had, um, you know, let's just say a family planning calendar, cause my, you know, for kids who go to sports or, um, you know, I have a group that I, you know, maybe I have a church group or something like that, that also has a calendar.       
+[06:49.680 --> 06:57.680]  You can link those calendars in here as well to make sure that you don't have appointments that get set over things that you've already scheduled, right?      
+[06:57.680 --> 07:00.680]  You want to make sure those, those other calendars show where their conflicts are.
+[07:00.680 --> 07:08.680]  So you would add those, um, uh, to this calendar and you can just 
+click on edit and then you can, uh, put those other calendars.
+[07:08.680 --> 07:12.680]  And then you see that I have other ones that I could add there.   
+[07:12.680 --> 07:14.680]  As a matter of fact, let's just demonstrate that.
+[07:14.680 --> 07:18.680]  So if I want to do my family calendar, you know, here's my, my personal stuff.
+[07:18.680 --> 07:19.680]  I do with my friends.
+[07:19.680 --> 07:23.680]  Here's a, you know, another, another calendar that I have.
+[07:23.680 --> 07:24.680]  I'm going to save those.
+[07:24.680 --> 07:26.680]  I'm going to let that be updated.
+[07:26.680 --> 07:40.680]  And so now anytime we have a calendar appointment setting system, 
+it's going to look at all four of those calendars in order to determine what spaces I have available.
+[07:40.680 --> 07:44.680]  So what we've done thus far as we've connected, uh, Google, we've 
+connected Stripe.
+[07:44.680 --> 07:51.680]  So now we're, we're fully integrated with communication systems with calendars, uh, and a payment system.
+[07:51.680 --> 07:55.680]  And now, so now we're going to actually start to dive into the building out of a business, right?
+[07:55.680 --> 07:59.680]  We've got, uh, and so what we're going to do there is first, we're going to connect a domain.
+[07:59.680 --> 08:12.680]  So I'm going to come back, um, to the, uh, settings section and I'm going to come down here to domains and I'm just going to click on domains.
+[08:12.680 --> 08:19.680]  And you'll see that inside this platform, I do not have any domains, uh, connected yet.
+[08:19.680 --> 08:23.680]  So I'm going to connect my domain and I'm going to put it right here.[08:19.680 --> 08:23.680]  So I'm going to connect my domain and I'm going to put it right here.
+[08:23.680 --> 08:35.680]  Uh, and I'm going to say that I also want to add the triple W IBDSG because that what, what that will do is it will create an automatic redirect.
+[08:35.680 --> 08:38.680]  If, if you're familiar with those terms and I'm going to click on 
+continue.
+[08:38.680 --> 08:47.680]  So it's the system, the platform is now going to go out and find my, what's called my domain domain name settings.
+[08:47.680 --> 09:01.680]  It's found that I'm, I'm on Cloudflare and it's going to add these settings to my, my domain names, uh, server so that my website will now appear, will, will now be a part of this platform.
+[09:01.680 --> 09:04.680]  So I'm going to authorize that.
+[09:08.680 --> 09:14.680]  And you could see that, um, you know, I had my website connected elsewhere.
+[09:14.680 --> 09:18.680]  And so I'm just going to, um, do that right now.
+[09:18.680 --> 09:35.680]  So now it is authorizing those and making those changes in Cloudflare for me.
+[09:35.680 --> 09:38.680]  So it connects my domain.
+[09:41.680 --> 09:46.680]  And so now you can see that both, uh, both those domains are now connected.
+[09:46.680 --> 09:51.680]  And if we were to go over to Cloudflare, we would see that those records have been updated.
+[09:51.680 --> 09:56.680]  Um, I'm going to, okay.
+[09:56.680 --> 10:01.680]  So we, we have those, that's all created correctly.
+[10:01.680 --> 10:02.680]  So now we've connected a domain.
+[10:02.680 --> 10:07.680]  So now what we can do is we can actually build a website, right?  
+[10:07.680 --> 10:09.680]  And this is critical piece.
+[10:09.680 --> 10:15.680]  So we are so used to now in the world, you know, you have to go out and buy a domain, you know, you register your domain name and a registrar.
+[10:15.680 --> 10:17.680]  That's one, one step you have to do.
+[10:17.680 --> 10:24.680]  Then you have to make sure that that registrar can point the name 
+to a website host, right?
+[10:24.680 --> 10:31.680]  And then that website host will then be, that's the, that's the computer out there in the cloud where your website lives.
+[10:31.680 --> 10:39.680]  So when somebody types in www.ibdsg.com that then, you know, your 
+website shows up.
+[10:39.680 --> 10:45.680]  But in this platform, I can now create a website.
+[10:45.680 --> 10:47.680]  Um, and I don't have to pay any other hosting fees.
+[10:47.680 --> 10:52.680]  So again, I'm keeping it less than a hundred dollars a month for all of these tools combined, right?
+[10:52.680 --> 10:57.680]  So I'm going to go to the section called sites.
+[10:57.680 --> 11:02.680]  So now I'm going to come over to the website section here and you'll see there's nothing in here.
+[11:02.680 --> 11:07.680]  So I'm going to create a new website and you'll see that I have the option of creating something from blank.
+[11:07.680 --> 11:09.680]  So I could just start from scratch.
+[11:09.680 --> 11:13.680]  If you're super comfortable and you want to build a website, uh, you know, and take the time to do that.
+[11:13.680 --> 11:14.680]  That's great.
+[11:14.680 --> 11:16.680]  But my promise is that we can do this in about 45 minutes.        
+[11:16.680 --> 11:21.680]  So I'm going to actually choose one of the templates they have, and I'm going to continue.
+[11:21.680 --> 11:26.680]  Let's choose this one and see what we get.
+[11:26.680 --> 11:30.680]  We'll look at a preview.
+[11:30.680 --> 11:34.680]  You got a great, you know, this is the, you know, a great template.
+[11:34.680 --> 11:39.680]  You can see that we've got classes, we've got a team, we've got an about us page.
+[11:39.680 --> 11:47.680]  And so, uh, I'm going to click on continue.
+[11:47.680 --> 11:52.680]  It's adding the template to it, uh, to my, to my platform right now.
+[11:52.680 --> 11:53.680]  Okay.
+[11:53.680 --> 11:56.680]  You can see now that it's added that template to my account here. 
+[11:56.680 --> 12:08.680]  Um, I'm going to click in and, um, I'm going to click on the settings here because I'm just going to call it the, uh, website.
+[12:08.680 --> 12:13.680]  And I'm going to just change that.
+[12:13.680 --> 12:22.680]  These two little pieces here just because, um, we want to give it 
+the name that, you know, that we want.
+[12:22.680 --> 12:26.680]  And so now you can see that we have these three pages that have already been created for us.
+[12:26.680 --> 12:28.680]  By going in, we can click on edit.
+[12:28.680 --> 12:31.680]  It's going to load up a web builder for us.
+[12:31.680 --> 12:40.680]  And this is how easily, you know, you can come in and, um, you know, change what's on this, uh, what's on this website.
+[12:40.680 --> 12:50.680]  So, um, how to make you a better professional.
+[12:50.680 --> 13:18.680]  Um, you know, we work, whoo.
+[13:18.680 --> 13:20.680]  You know, it is what it is.
+[13:20.680 --> 13:25.680]  So there, if I wanted to come up here and, uh, change the logo, we would just come down here.
+[13:25.680 --> 13:29.680]  Um, find the logo here in the assets.
+[13:29.680 --> 13:32.680]  We're going to come and we'll, we'll upload a logo.
+[13:32.680 --> 13:37.680]  Yeah, we're doing that.
+[13:37.680 --> 13:38.680]  We'll choose that one.
+[13:38.680 --> 13:39.680]  Boom.
+[13:39.680 --> 13:45.680]  And we're going to make it only, let's just say, we're going to make it a hundred.
+[13:45.680 --> 13:46.680]  Let's just see.
+[13:46.680 --> 13:47.680]  There you go.
+[13:47.680 --> 13:48.680]  On the left there.
+[13:48.680 --> 13:54.680]  If I wanted to change the menu items, um, you know, let's just say that I've got a, uh, a special menu item.
+[13:54.680 --> 14:04.680]  That, um, I want to add in here that, you know, what we'll call this, um, store.
+[14:04.680 --> 14:07.680]  Um, let's not put a store cause we might put a store later.       
+[14:07.680 --> 14:11.680]  Um, and, um, got trainings.
+[14:11.680 --> 14:20.680]  We've got book, you know, let's just, we'll, um, we'll add this book and you can see how easily we can change where that menu item goes.
+[14:20.680 --> 14:21.680]  And that way, shazam.
+[14:21.680 --> 14:22.680]  Now all I'm going to do is save it.
+[14:22.680 --> 14:23.680]  Save my work.
+[14:23.680 --> 14:27.680]  So you see right here, there's actually, you know, a URL.
+[14:27.680 --> 14:28.680]  It's just kind of some craziness right here.
+[14:28.680 --> 14:37.680]  And I'm going to connect the domain here so that that changes.
+[14:37.680 --> 14:38.680]  Shazam.
+[14:38.680 --> 14:39.680]  Shazam.
+[14:39.680 --> 14:44.680]  So now if I go to IBDSG.
+[14:44.680 --> 14:45.680]  Home, right.
+[14:45.680 --> 14:48.680]  If I take that, I'm just going to publish this.
+[14:48.680 --> 14:50.680]  I'm going to update the SEO.
+[14:50.680 --> 14:51.680]  We're not going to worry about that.
+[14:51.680 --> 14:54.680]  So you can see, you can do any kind of SEO work or whatever you want.
+[14:54.680 --> 14:59.680]  Um, it's now published to the web.
+[14:59.680 --> 15:07.680]  And, um, if I go to IBDSG.com home, this webpage actually exists here.
+[15:07.680 --> 15:12.680]  So we now have an, uh, we literally have a website that's up and running and you can see the world.
+[15:12.680 --> 15:17.680]  So, you know, going through and editing that, um, you know, you can do that at your, as your heart's content,
+[15:17.680 --> 15:20.680]  but we have an up and a website that's up and running.
+[15:20.680 --> 15:24.680]  And I'm going to show you in a few seconds how we can add an appointment calendar to this,
+[15:24.680 --> 15:26.680]  how we can get people to sign up for our newsletter, et cetera.   
+[15:26.680 --> 15:30.680]  So again, we're all going to, we're going to have all of that done here as well.
+[15:30.680 --> 15:35.680]  Um, so website is now up and running.
+[15:35.680 --> 15:38.680]  And again, remember, we're not paying another dime for it.        
+[15:38.680 --> 15:40.680]  This is all part of the same platform here.
+[15:40.680 --> 15:41.680]  Okay.
+[15:41.680 --> 15:46.680]  So now that our website is up and running, we now want to actually create a way for people
+[15:46.680 --> 15:48.680]  to schedule appointments with us, right?
+[15:48.680 --> 15:52.680]  That's absolutely critical for any coach, for anybody running a practice.
+[15:52.680 --> 15:54.680]  You need to have a way for people to book a time.
+[15:54.680 --> 15:58.680]  And that can be, um, you know, a one-on-one call that could be a group call, et cetera.
+[15:58.680 --> 15:59.680]  I'll show you in just a second.
+[15:59.680 --> 16:03.680]  So first we're going to come over to calendars and we'll click on 
+calendar settings.
+[16:03.680 --> 16:05.680]  And you'll see, there's no, it says there's no calendars here.    
+[16:05.680 --> 16:09.680]  So this is a little strange in this platform that they call it calendars, but these are actually,
+[16:09.680 --> 16:12.680]  you know, how do I build a new appointment setting a piece?       
+[16:12.680 --> 16:15.680]  So I'm going to create a new one.
+[16:15.680 --> 16:19.680]  And as you can see here, there's several different types that you 
+can choose.
+[16:19.680 --> 16:22.680]  You could do a one-on-one call, which is what we're going to do.  
+[16:22.680 --> 16:24.680]  You could do a class booking.
+[16:24.680 --> 16:28.680]  So if you want to have multiple people, a group of people show up 
+for an online class
+[16:28.680 --> 16:31.680]  or something like that, or a webinar, um, you can do a round robin.
+[16:31.680 --> 16:36.680]  If you have several salespeople in your practice, maybe virtual assistants or something, you can,
+[16:36.680 --> 16:41.680]  uh, uh, you, uh, you have those sales calls come in in a round robin fashion.
+[16:41.680 --> 16:43.680]  So it gets distributed between those people.
+[16:43.680 --> 16:45.680]  You could do an event, et cetera.
+[16:45.680 --> 16:47.680]  So there's a bunch of different choices that we have here.        
+[16:47.680 --> 16:55.680]  And already that I'm going to click on personal booking and we'll 
+call it a discovery call with me, right?
+[16:55.680 --> 16:57.680]  The team member is me.
+[16:57.680 --> 16:58.680]  You could choose a deal.
+[16:58.680 --> 17:03.680]  And again, if you have multiple team members, you can put, um, those in there for the round robin, et cetera.
+[17:03.680 --> 17:17.680]  I'm going to call it, I'm just going to give it a, uh, we'll call 
+it discovery call with Latic.
+[17:17.680 --> 17:20.680]  Um, so that's, uh, you know, a unique name for it.
+[17:20.680 --> 17:23.680]  Uh, we'll give it a half hour.
+[17:23.680 --> 17:26.680]  We'll say that, you know, I'm available from Monday through Friday, et cetera.
+[17:26.680 --> 17:31.680]  If you wanted to put advanced settings, uh, we can come in here and do that as well.
+[17:31.680 --> 17:36.680]  Um, so this is the name of the calendar that they're going to have.
+[17:36.680 --> 17:43.680]  Uh, when they come down that, that, that invite, that's going to go, um, onto the calendar invite
+[17:43.680 --> 17:44.680]  that we're going to send out to them.
+[17:44.680 --> 17:46.680]  Uh, we want to put that here.
+[17:46.680 --> 17:50.680]  So, uh, your discovery call with me.
+[17:50.680 --> 17:54.680]  Um, and then if you had a meeting location, so if you have a zoom 
+account, you have my,
+[17:54.680 --> 17:57.680]  if you prefer teams, if you, you know, where, where do you want to meet them?
+[17:57.680 --> 17:58.680]  Right.
+[17:58.680 --> 18:05.680]  In this case, um, I'll just use my, my zoom account.
+[18:05.680 --> 18:08.680]  Um, that's my default zoom account, like the color green.
+[18:08.680 --> 18:10.680]  I wanted to show up green on my calendar.
+[18:10.680 --> 18:14.680]  Um, we'll save that for a second, just to make sure we save that information.
+[18:14.680 --> 18:18.680]  Um, then we'll go to our availability.
+[18:18.680 --> 18:19.680]  Again, you can change these.
+[18:19.680 --> 18:22.680]  So let's just say I don't do discovery calls on Fridays.
+[18:22.680 --> 18:27.680]  Um, and month on Monday, I start at 10 AM and I'm going to add that.
+[18:27.680 --> 18:30.680]  And then I'm going to, um, only do discovery calls until 3 PM.    
+[18:30.680 --> 18:32.680]  You can set your own schedule, right?
+[18:32.680 --> 18:35.680]  And you can actually set this default back in the, my profile section.
+[18:35.680 --> 18:42.680]  So that these are, uh, the, the, these default times, uh, stay in 
+there.
+[18:42.680 --> 18:47.680]  And then you have just like on a Calendly app or tidy call or, or 
+HubSpot or any, any one of these,
+[18:47.680 --> 18:50.680]  you can tell, you know, how long do you want the meeting to be?
+[18:50.680 --> 18:55.680]  Um, how long should people, how long before the meeting, uh, do you,
+[18:55.680 --> 18:57.680]  you want to limit people to booking?
+[18:57.680 --> 19:00.680]  And I say, like, you can't do it for, for eight hours.
+[19:00.680 --> 19:02.680]  You have to book a time with me for eight hours before.
+[19:02.680 --> 19:05.680]  Um, I want to create some urgency.
+[19:05.680 --> 19:09.680]  So I'm going to say, look, there's only, I'm going to give people 
+only, um, you know,
+[19:09.680 --> 19:12.680]  seven days that they can book a time.
+[19:12.680 --> 19:14.680]  So I'm going to limit it.
+[19:14.680 --> 19:16.680]  Um, and I'm only going to do two discovery calls a day.
+[19:16.680 --> 19:19.680]  Um, I'm not going to worry about buffer time again.
+[19:19.680 --> 19:21.680]  So I'm going to save this information.
+[19:21.680 --> 19:31.680]  If you, um, one thing that's really, really important here is if, 
+if you want to have,
+[19:31.680 --> 19:34.680]  you know, when somebody books the call, it's, it'll just give you 
+a thank you.
+[19:34.680 --> 19:35.680]  Right.
+[19:35.680 --> 19:39.680]  But if you have like a thank you page that you want them to go to 
+that you could create
+[19:39.680 --> 19:44.680]  on your website or something else, you can also just use this redirect URL to send them
+[19:44.680 --> 19:47.680]  to a thank you page or send them to another call to action.
+[19:47.680 --> 19:50.680]  Let's just say like, it's a download a worksheet that you want them to do before the call or
+[19:50.680 --> 19:51.680]  something like that.
+[19:51.680 --> 19:53.680]  You could do that as well.
+[19:53.680 --> 19:55.680]  So that's easy enough.
+[19:55.680 --> 19:59.680]  Um, notifications and additional options.
+[19:59.680 --> 20:05.680]  One thing that we want to do here is we want to allow Google, uh, 
+to send calendar invitations.
+[20:05.680 --> 20:07.680]  So we're going to click on that.
+[20:07.680 --> 20:12.680]  And I believe go to customizations.
+[20:12.680 --> 20:13.680]  Yeah.
+[20:13.680 --> 20:18.680]  If you wanted, if you wanted to put an image with this, we're not 
+usually that's not necessary.
+[20:18.680 --> 20:25.680]  Um, uh, but one thing that we want to put in here that we didn't do in the beginning is
+[20:25.680 --> 20:26.680]  a description.
+[20:26.680 --> 20:32.680]  So please choose a time to meet.
+[20:32.680 --> 20:45.680]  Uh, and we're going to save this.
+[20:45.680 --> 20:46.680]  Okay.
+[20:46.680 --> 20:47.680]  Awesome.
+[20:47.680 --> 20:48.680]  So we're going to close this.
+[20:48.680 --> 20:50.680]  So now you see this, this calendar is here.
+[20:50.680 --> 20:52.680]  And if I wanted to share that, right?
+[20:52.680 --> 20:55.680]  So we have a couple of different links that we can do that with again.
+[20:55.680 --> 20:57.680]  I'm just going to come over here.
+[20:57.680 --> 21:05.680]  We'll go to that calendar link and you'll see Shazam.
+[21:05.680 --> 21:09.680]  Now somebody can come in and over the next seven days, these are the times that I have
+[21:09.680 --> 21:12.680]  available for them to schedule this time.
+[21:12.680 --> 21:16.680]  Let's just say 9 30 tomorrow and boom, here we go.
+[21:16.680 --> 21:22.680]  Uh, you know, everything is, um, as, as you'd expect, they put the first name, last name,
+[21:22.680 --> 21:24.680]  their phone number, their email.
+[21:24.680 --> 21:27.680]  Um, they can put in additional information, et cetera.
+[21:27.680 --> 21:32.680]  And you can customize this as well to add additional fields, but that's a pretty standard booking
+[21:32.680 --> 21:33.680]  call.
+[21:33.680 --> 21:34.680]  Now here's the thing.
+[21:34.680 --> 21:38.940]  So now that we have our calendar system, we actually need to make 
+sure that this person
+[21:38.940 --> 21:43.200]  is going to show up to our, uh, our appointment.
+[21:43.200 --> 21:51.680]  And so we're going to, um, come over to automations and we're going to create an automation.
+[21:51.680 --> 21:54.680]  We're going to select a recipe again in this platform.
+[21:54.680 --> 21:56.680]  And I know that there's one down here.
+[21:56.680 --> 21:59.680]  See, see, it says appointment confirmation reminder here.
+[21:59.680 --> 22:03.680]  We're going to add this to the platform.
+[22:03.680 --> 22:08.680]  And what we have here is we have an entire automation that you can see, you know, starts
+[22:08.680 --> 22:13.680]  at 24 hours before the, uh, the appointment, then one hour before 
+the appointment, then five
+[22:13.680 --> 22:14.680]  minutes before the appointment.
+[22:14.680 --> 22:19.680]  And what we need to do is we need to first say, you know, what triggers this?
+[22:19.680 --> 22:26.040]  And I'm going to come down here and I'm going to say that if there is an appointment that
+[22:26.040 --> 22:29.780]  was in the calendar discovery call with letting, right?
+[22:29.780 --> 22:31.740]  So we'll, we'll add that.
+[22:31.740 --> 22:33.420]  So that trigger is now updated.
+[22:33.420 --> 22:41.620]  So, um, we've, we've added that and then we can just say, we want 
+to name it so that we
+[22:41.620 --> 22:46.680]  can see what, what, uh, part of the, what, you know, what's going 
+to trigger this workflow.
+[22:46.680 --> 22:51.960]  Then what we would do is we would come through and we would update each of these templates
+[22:51.960 --> 22:54.060]  that are already here.
+[22:54.060 --> 22:56.080]  So again, there's a confirmation email.
+[22:56.080 --> 22:58.220]  We can put what, you know, what our name is.
+[22:58.220 --> 23:06.980]  We can put, my name is Steven Ladick and the location email is et 
+cetera.
+[23:06.980 --> 23:15.120]  And then, you know, you definitely want to say, put that in there 
+and then they've given
+[23:15.120 --> 23:19.300]  you some template text here, but then you can update what you want this text to be.
+[23:19.300 --> 23:21.180]  You can make it as pretty as you want.
+[23:21.180 --> 23:27.760]  Um, and you know, you can customize it as much as you want and you would say, you know, add
+[23:27.760 --> 23:30.800]  your signature in there, et cetera.
+[23:30.800 --> 23:35.800]  And so we will save this and then we would publish it.
+[23:35.800 --> 23:37.000]  Right.
+[23:37.000 --> 23:39.060]  And then this automation is now live.
+[23:39.060 --> 23:45.680]  So after I've come after I have, uh, customized each of these emails, um, uh, that, you know,
+[23:45.680 --> 23:49.680]  this whole thing is live and they will receive these emails as, as reminders.
+[23:49.680 --> 23:52.860]  You also, you'll see here that there's also SMS options as well.  
+[23:52.860 --> 23:57.380]  So if you have someone give them, give your, give their phone number, you can also send SMSs
+[23:57.380 --> 23:58.380]  as well.
+[23:58.380 --> 24:02.760]  There's a direct messages, um, to their phone, or you can, if you 
+know, if you don't want to
+[24:02.760 --> 24:08.800]  do that, um, you can actually just choose to delete this and Shazam, it just takes it away
+[24:08.800 --> 24:10.520]  out of that automation.
+[24:10.520 --> 24:11.520]  So there you have it.
+[24:11.520 --> 24:15.580]  So now we have an appointment calendar where people can book with 
+us and we have a way where
+[24:15.580 --> 24:19.320]  we're going to follow up with them so that we make sure that they're actually going to
+[24:19.320 --> 24:25.840]  show up and, uh, you know, come to that discovery call so that we're getting them booked inside
+[24:25.840 --> 24:29.920]  our meeting.
+[24:29.920 --> 24:35.140]  If we wanted to put that appointment calendar, um, you know, or if we wanted to put that onto
+[24:35.140 --> 24:41.440]  our website, you know, we would simply, um, go back to our calendars and we would go to
+[24:41.440 --> 24:50.960]  our calendar settings and we would take the, um, you know, the, the booking link, and then
+[24:50.960 --> 24:53.680]  I'm going to go back to sites.
+[24:53.680 --> 25:00.160]  I'm going to go back to that website that we built.
+[25:00.160 --> 25:05.120]  It was, uh, you know, on that homepage, it says book an appointment, right?
+[25:05.120 --> 25:08.120]  So let's look at this button.
+[25:08.120 --> 25:11.400]  We'll change the text of that button.
+[25:11.400 --> 25:14.900]  We'll just say book a, right?
+[25:14.900 --> 25:23.460]  We'll put book a discovery call now, and then we can link it to a 
+website URL.
+[25:23.460 --> 25:24.680]  You could link it to a different page.
+[25:24.680 --> 25:28.580]  You could do all kinds of different things, right?
+[25:28.580 --> 25:34.540]  But I'm going to put that URL in there.
+[25:34.540 --> 25:37.560]  And again, I'm just going to save this and I'm going to publish it.
+[25:37.560 --> 25:38.900]  We don't need to update the SEO.
+[25:38.900 --> 25:42.880]  I'm going to publish it again.
+[25:42.880 --> 25:45.820]  Let's preview the page.
+[25:45.820 --> 25:47.480]  And again, book a discovery call.
+[25:47.480 --> 25:48.480]  We click on that button.
+[25:48.480 --> 25:49.480]  Boom.
+[25:49.480 --> 25:50.520]  Now it takes us to the discovery call.
+[25:50.520 --> 25:53.900]  And then again, remember if you wanted to put that redirect at the end, after they booked
+[25:53.900 --> 25:58.440]  their link, they could come back to your webpage to a nice thank you page.
+[25:58.440 --> 25:59.440]  So wow.
+[25:59.440 --> 26:00.440]  So we've really done a lot already.
+[26:00.440 --> 26:01.440]  Right.
+[26:01.440 --> 26:06.160]  And we're, you know, what, 20 minutes into this, excuse me.       
+[26:06.160 --> 26:15.660]  Now the next thing that we want to make sure we do is that we want to build a way to nurture
+[26:15.660 --> 26:16.780]  and grow our audience, right?
+[26:16.780 --> 26:22.040]  So we want to build a newsletter and we want to then have people be able to sign up for that
+[26:22.040 --> 26:26.560]  newsletter and then send a newsletter out on a regular basis.
+[26:26.560 --> 26:31.000]  So in order to do that, I'm going to come over to marketing, excuse me.
+[26:31.000 --> 26:34.220]  You'll see here that we have, I'm not going to demonstrate this today, but you can connect
+[26:34.220 --> 26:37.380]  to your social accounts, et cetera, et cetera.
+[26:37.380 --> 26:40.580]  But the first thing that we need to do is actually need to build a form.
+[26:40.580 --> 26:44.580]  So sorry.
+[26:44.580 --> 26:48.680]  The form that we need to build is up here.
+[26:48.680 --> 26:49.780]  We go up to forms.
+[26:49.780 --> 26:55.300]  We're going to build a form and we're going to add a form to this 
+list.
+[26:55.300 --> 26:59.800]  I'm again, I'm going to choose one from a template just for the fun of it, because it
+[26:59.800 --> 27:01.840]  makes a little faster.
+[27:01.840 --> 27:04.740]  And again, I promise you that we get all of this set up and running and then just under
+[27:04.740 --> 27:07.260]  an hour.
+[27:07.260 --> 27:12.740]  And let's just say, you know, we want to right here, generic registration.
+[27:12.740 --> 27:16.260]  Look at that for our, what if we put a type in newsletter?
+[27:16.260 --> 27:17.260]  Let's see what happens.
+[27:17.260 --> 27:18.260]  Yeah.
+[27:18.260 --> 27:20.260]  We don't like that.
+[27:20.260 --> 27:26.800]  Um, purple, gray, we'll see.
+[27:26.800 --> 27:31.740]  Let's just see what this one looks like.
+[27:31.740 --> 27:33.260]  We'll continue here.
+[27:33.260 --> 27:49.940]  And then we have a form or I'm going to, I'm going to call this newsletter signup.
+[27:49.940 --> 27:51.780]  So that's great.
+[27:51.780 --> 27:54.960]  Um, we'll just keep that image there.
+[27:54.960 --> 27:56.300]  I'm going to actually add an element.
+[27:56.300 --> 27:58.800]  I'm going to add some text to this form.
+[27:58.800 --> 28:20.180]  We'll put the text down here and say, and we'll make it a little smaller.
+[28:20.180 --> 28:24.940]  We'll make it 24 font, maybe put it in, you know, center it.
+[28:24.940 --> 28:28.780]  So Shazam, and we're just asking for their first name and their email.
+[28:28.780 --> 28:35.600]  And then instead of submit, let's, let's say we'll make it a nice 
+call to action there.
+[28:35.600 --> 28:36.600]  Like, yes, sign me up.
+[28:36.600 --> 28:37.600]  Right.
+[28:37.600 --> 28:40.620]  So we're going to save this, save this form.
+[28:40.620 --> 28:43.040]  Now we have the form created.
+[28:43.040 --> 28:52.260]  So now what I'm going to go back to is I'm going to go back to, um, back to my website.
+[28:52.260 --> 28:57.020]  We're going to go to again, websites, go to the website.
+[28:57.020 --> 29:02.420]  Um, look, there's a, I just realized there's that thank you page that we could have put
+[29:02.420 --> 29:03.840]  in the, in the URL.
+[29:03.840 --> 29:04.840]  Right.
+[29:04.840 --> 29:15.020]  So now let's, um, let's put it on this homepage.
+[29:15.020 --> 29:16.020]  We'll find it.
+[29:16.020 --> 29:17.840]  We'll find an interesting place to put it.
+[29:17.840 --> 29:28.660]  Um, you know, here, blah, blah, blah.
+[29:28.660 --> 29:36.980]  So you can see here, um, I'm going to, I'm going to add a form to 
+this webpage.
+[29:36.980 --> 29:39.660]  That's, I'm going to look for form.
+[29:39.660 --> 29:41.660]  We'll bring that in here.
+[29:41.660 --> 29:48.100]  Uh, then I'm going to select the one that I just created, which is newsletter signup and
+[29:48.100 --> 29:49.100]  Shazam.
+[29:49.100 --> 29:52.580]  You can see here, we'll, we'll get rid of this, this button because we don't need anymore.
+[29:52.580 --> 29:55.660]  But now our form is on this webpage.
+[29:55.660 --> 30:01.200]  Um, and we'll use the action from the form builder after, you know, when somebody signs up.
+[30:01.200 --> 30:05.900]  So we're going to just save that again.
+[30:05.900 --> 30:13.180]  If we publish it and then preview the page.
+[30:13.180 --> 30:17.940]  If we go down to the bottom of the page now, you'll see this form 
+is here.
+[30:17.940 --> 30:23.700]  Now again, we have to make sure that we have, uh, you know, what happens when somebody, you
+[30:23.700 --> 30:26.300]  know, uses this form, right?
+[30:26.300 --> 30:27.640]  So there's two things that we want to do.
+[30:27.640 --> 30:32.620]  We want to first thank them and we want to make sure that they are, uh, acknowledged that
+[30:32.620 --> 30:36.560]  they, uh, have signed up for the form, sorry, sorry, signed up for our newsletter, but then
+[30:36.560 --> 30:38.380]  we want to nurture them, right?
+[30:38.380 --> 30:40.800]  So we're going to go back to automations.
+[30:40.800 --> 30:52.740]  And again, we're going to create, uh, we're going to select a recipe, um, there was a nice
+[30:52.740 --> 31:06.280]  nurture sequence around here, oh, right here, long-term nurture reactivation email sequence
+[31:06.280 --> 31:08.860]  right here.
+[31:08.860 --> 31:16.740]  And again, what we would do is we would, you know, um, we'll just 
+call this nurture.
+[31:16.740 --> 31:22.200]  And again, we have to add a trigger.
+[31:22.200 --> 31:25.960]  So I'm going to put a, I'm going to look for a form and I'm going 
+to say, what form was
+[31:25.960 --> 31:26.960]  submitted?
+[31:26.960 --> 31:32.640]  I'm going to say the form is the newsletter signup or save it there.
+[31:32.640 --> 31:33.640]  Oops.
+[31:33.640 --> 31:43.040]  Let's just say you punk.
+[31:43.040 --> 31:45.920]  And I'm going to save that.
+[31:45.920 --> 31:49.800]  And then, you know, rather than waiting for one month, let's get rid of that.
+[31:49.800 --> 31:50.800]  Oops.
+[31:50.800 --> 31:55.500]  We're just going to delete that action.
+[31:55.500 --> 31:58.800]  And then this one says, Hey, you know, this one says, thanks.     
+[31:58.800 --> 32:07.040]  You know, we just say, thank you for signing up.
+[32:07.040 --> 32:20.540]  So you can put whatever language that you want in there, we're going to save that.
+[32:20.540 --> 32:21.540]  We'll publish it.
+[32:21.540 --> 32:22.540]  We'll say that as well.
+[32:22.540 --> 32:27.400]  So now we have a nurture sequence that will, um, take people through, uh, about, you know,
+[32:27.400 --> 32:31.180]  things about our practice, things about, you know, the problems that we solve things about,
+[32:31.180 --> 32:35.140]  you know, your particular process so that, you know, you continue, they get to know you
+[32:35.140 --> 32:36.140]  better.
+[32:36.140 --> 32:43.140]  And, um, uh, not only they get to know you better, but they, uh, you know, have opportunities
+[32:43.140 --> 32:48.060]  to come and choose to work with you, purchase some of your products or, you know, come into
+[32:48.060 --> 32:52.320]  your classes or come into your, uh, come into your universe somehow.
+[32:52.320 --> 32:54.340]  So now we have that nurture sequence built.
+[32:54.340 --> 32:59.340]  And then the second thing that we need to do in order to make sure that they are now on
+[32:59.340 --> 33:06.480]  our newsletter is that we need to actually, um, Oh, we forgot this as a part of that nurture
+[33:06.480 --> 33:07.480]  sequence.
+[33:07.480 --> 33:08.480]  That was what I forgot.
+[33:08.480 --> 33:11.300]  We need to actually tag them.
+[33:11.300 --> 33:16.340]  So we want to actually, uh, add a tag to the contact.
+[33:16.340 --> 33:17.340]  Let's just see, what do we have?
+[33:17.340 --> 33:18.680]  We don't have really anything in here.
+[33:18.680 --> 33:23.740]  So let's just call it news letter signup.
+[33:23.740 --> 33:25.820]  And we're going to add that new tag.
+[33:25.820 --> 33:30.380]  So newsletter signup is going to be added to them when they sign up and then they'll,
+[33:30.380 --> 33:35.620]  then they'll get that, uh, welcome, you know, confirmation email. 
+[33:35.620 --> 33:37.120]  Glad I remembered that.
+[33:37.120 --> 33:40.260]  So now we're going to go over to contacts.
+[33:40.260 --> 33:41.620]  We have no contacts here.
+[33:41.620 --> 33:42.620]  You can see that.
+[33:42.620 --> 33:46.900]  So anytime that someone is, uh, going to sign up for this newsletter.
+[33:46.900 --> 33:51.820]  So now let's just say, and we'll call it, um,
+[33:51.820 --> 34:07.780]  Um, where's my plus we'll just use that.
+[34:07.780 --> 34:08.780]  Right.
+[34:08.780 --> 34:09.900]  I'm going to say, yes, sign me up.
+[34:09.900 --> 34:10.900]  Yay.
+[34:10.900 --> 34:11.900]  Okay.
+[34:11.900 --> 34:22.980]  So it's, it's signed me up if we come back to our contacts, I'm going to refresh this.
+[34:22.980 --> 34:28.980]  You'll see now we have one contact and the contact has also been given the tag newsletter signup.
+[34:28.980 --> 34:29.980]  That's really important.
+[34:29.980 --> 34:30.980]  Okay.
+[34:30.980 --> 34:48.060]  Um, let's just do this, uh, again, um, do that sign up again.
+[34:48.060 --> 34:50.820]  All right.
+[34:50.820 --> 34:55.360]  And then if we refresh again, so now we should have two contacts in there and that friends
+[34:55.360 --> 34:56.740]  is how easy it is to grow a list.
+[34:56.740 --> 34:58.900]  Of course, I'm totally joking.
+[34:58.900 --> 35:04.180]  Um, so now we have two contacts and the key thing here is that they both have that tag in
+[35:04.180 --> 35:09.240]  order to then, um, create a newsletter, which is what we'll do next.
+[35:09.240 --> 35:11.660]  I'm going to show you that, you know, what we have to do is we have to create something
+[35:11.660 --> 35:13.620]  called a smart list.
+[35:13.620 --> 35:24.400]  And so I am going to filter my contacts and I'm going to say, um, 
+first thing is that
+[35:24.400 --> 35:27.780]  the email is not empty.
+[35:27.780 --> 35:29.780]  Okay.
+[35:29.780 --> 35:40.740]  So we're going to say the contact first, they have to have an email address and the tag
+[35:40.740 --> 35:47.180]  is specifically newsletter signup.
+[35:47.180 --> 35:51.080]  And we'll also say that the first name is not empty.
+[35:51.080 --> 35:52.080]  Oops.
+[35:52.080 --> 35:54.280]  It's not empty as well.
+[35:54.280 --> 35:58.200]  So we've got, so now we have these three conditions, you know, when we go through our contacts,
+[35:58.200 --> 36:02.780]  so it says their email's not empty, that they have that tag and that they have a first name.
+[36:02.780 --> 36:07.900]  And you can see down here at the bottom, I'm going to save this as a smart list and we'll
+[36:07.900 --> 36:13.980]  call it the, we'll call it the newsletter list.
+[36:13.980 --> 36:16.900]  Let's put list in there too.
+[36:16.900 --> 36:20.720]  Always good to name things in a way that you can always recognize 
+them.
+[36:20.720 --> 36:22.220]  So now we've created this smart list.
+[36:22.220 --> 36:27.520]  So now let's actually create the newsletter, uh, that will be sent out.
+[36:27.520 --> 36:33.220]  The first thing that we need to do is we actually have to create a template for our newsletter.
+[36:33.220 --> 36:37.440]  So I'm going to come over to the marketing section in this platform.
+[36:37.440 --> 36:40.740]  And you'll see here that emails, there's campaigns and templates, 
+so campaigns are the emails
+[36:40.740 --> 36:41.860]  that you actually send.
+[36:41.860 --> 36:47.360]  And the templates are the, you know, the actual templates that you use to, to, to, to create
+[36:47.360 --> 36:48.860]  those emails.
+[36:48.860 --> 36:50.240]  So let's create a new template.
+[36:50.240 --> 36:53.480]  So I'm going to, you can click on either button.
+[36:53.480 --> 37:05.740]  I'm going to click one from, uh, email marketing templates and let's just, let's just do something
+[37:05.740 --> 37:06.860]  really basic.
+[37:06.860 --> 37:08.700]  So it's nice and easy.
+[37:08.700 --> 37:09.700]  Look at that.
+[37:09.700 --> 37:10.700]  Wow.
+[37:10.700 --> 37:19.580]  So I'm going to continue, it's going to add it.
+[37:19.580 --> 37:24.080]  And again, you'll see, we have this builder, this placeholder here.
+[37:24.080 --> 37:29.520]  I'm going to let's upload it.
+[37:29.520 --> 37:33.760]  We're going to put our logo in there, double click that.
+[37:33.760 --> 37:34.760]  Boom.
+[37:34.760 --> 37:35.760]  There you go.
+[37:35.760 --> 37:44.380]  We say, hi, and rather than welcome to the course, we're going to 
+say monthly newsletter.
+[37:44.380 --> 37:48.680]  And then we'd say, you know, this, these, you could see here, high contact name in, in
+[37:48.680 --> 37:53.000]  this, in this template now, you're going to say, you know, what are the, what are the
+[37:53.000 --> 37:56.080]  parts that you would want to have for your newsletter?
+[37:56.080 --> 38:04.520]  Um, you'd probably want, you know, part one is new, um, ideas for 
+the month.
+[38:04.520 --> 38:17.640]  Uh, part two is, um, oops, success story of the month.
+[38:17.640 --> 38:20.140]  Maybe you feature other, you know, some of the entrepreneurs you work with.
+[38:20.140 --> 38:29.860]  And then part three, um, is my monthly incredible offer, right?   
+[38:29.860 --> 38:46.640]  So now you've got these, this three part template, um, and then obviously you sign it because
+[38:46.640 --> 38:48.140]  you want to personalize it, right?
+[38:48.140 --> 38:51.040]  And then you can change your links down here, et cetera, et cetera.
+[38:51.040 --> 38:53.680]  But what we're doing right now is we're just creating a template. 
+[38:53.680 --> 39:04.000]  And I want to, I want to put this here as I, so I'm going to name 
+it so that we know that
+[39:04.000 --> 39:08.320]  this is a, my template for my newsletter, I'm going to save the template.
+[39:08.320 --> 39:12.180]  So now that we've created a newsletter template, we want to actually go back and create the
+[39:12.180 --> 39:14.320]  campaigns, right?
+[39:14.320 --> 39:17.680]  So if I come in to create a campaign, you'll see that there are no campaigns that we've
+[39:17.680 --> 39:21.540]  created and we want to click on create a campaign.
+[39:21.540 --> 39:24.580]  And now this is where, you know, it can kind of be a little, little strange.
+[39:24.580 --> 39:27.560]  We're actually going to choose the template that we want to use.  
+[39:27.560 --> 39:28.560]  So, okay.
+[39:28.560 --> 39:29.560]  We want to choose that.
+[39:29.560 --> 39:33.360]  And the very first thing is we want to, uh, change this title.    
+[39:33.360 --> 39:40.340]  So we definitely don't get confused and we'll, we'll call this the, um, you know, I'm recording
+[39:40.340 --> 39:41.340]  this in November.
+[39:41.340 --> 39:45.700]  So we'll call this the December 24, uh, newsletter.
+[39:45.700 --> 39:51.160]  And then we would come in here, we'd actually put this information in here, you know, my,
+[39:51.160 --> 39:59.160]  my new idea for this month is to actually go and sell every day.
+[39:59.160 --> 40:01.260]  Cause that's what most entrepreneurs forget to do.
+[40:01.260 --> 40:10.640]  Uh, the success story is, um, I'd like to introduce you, you know, and one of your clients and my
+[40:10.640 --> 40:19.480]  incredible offer is you can get, you know, six months of coaching 
+for only three months.
+[40:19.480 --> 40:23.100]  It's your black Friday sale, et cetera.
+[40:23.100 --> 40:24.100]  Right.
+[40:24.100 --> 40:28.280]  So we're going to, uh, so we're going to save this.
+[40:28.280 --> 40:30.880]  And so now we're going to sit and you see up here in the, uh, the 
+blue button, then we're
+[40:30.880 --> 40:33.040]  going to send or schedule it.
+[40:33.040 --> 40:39.500]  Uh, we have to put where it's coming from, it's coming from Steven at IBDSG.com.
+[40:39.500 --> 40:45.180]  Oh, apparently I have not verified my, um, address.
+[40:45.180 --> 40:48.020]  Let's go verify my email.
+[40:48.020 --> 40:51.600]  There's an email that we got one second.
+[40:51.600 --> 40:55.740]  I'll be right back.
+[40:55.740 --> 40:57.640]  This is how easy it is to verify your email.
+[40:57.640 --> 40:58.640]  Shazam.
+[40:58.640 --> 40:59.640]  Okay.
+[40:59.640 --> 41:15.040]  We're, we're now verified, uh, the sender name, um, will be Latic 
+at IBDSG.com.
+[41:15.040 --> 41:22.080]  The subject line is going to be, we'll put the subject line in there.
+[41:22.080 --> 41:30.680]  If you want to put preview texts, it is a good one.
+[41:30.680 --> 41:31.680]  And then here's the thing.
+[41:31.680 --> 41:32.680]  So who are we going to send it to?
+[41:32.680 --> 41:34.860]  We're going to do specific contacts.
+[41:34.860 --> 41:37.720]  We're going to send this, this, and this is where you can see, we're going to send it
+[41:37.720 --> 41:39.940]  to a smart list.
+[41:39.940 --> 41:44.700]  And then we actually have to choose what smart list that we're going to send it to.
+[41:44.700 --> 41:51.560]  So I'm going to click on the plus, and then we have the IBDSG newsletter list, boom.
+[41:51.560 --> 42:01.160]  So now we have added that, um, what we have not, oh, we're going to, I chose send.
+[42:01.160 --> 42:04.440]  Now we actually want to schedule this for a time.
+[42:04.440 --> 42:08.000]  And so we're going to schedule this, you know, December, you know, we'll do it on the first
+[42:08.000 --> 42:09.700]  Tuesday of December.
+[42:09.700 --> 42:10.700]  We've updated that.
+[42:10.700 --> 42:11.700]  We've done that.
+[42:11.700 --> 42:14.980]  So now we would review it and schedule it, boom.
+[42:14.980 --> 42:19.960]  And now you can see that it's actually scheduled and it will be sent out to those contacts
+[42:19.960 --> 42:22.060]  in December.
+[42:22.060 --> 42:25.940]  And this is a beautiful thing because now if you had a monthly newsletter or even a weekly
+[42:25.940 --> 42:31.180]  newsletter, you can now come in and create newsletter for January, for February, for March,
+[42:31.180 --> 42:32.180]  April, May, June, right?
+[42:32.180 --> 42:35.080]  You could schedule all of those and create them.
+[42:35.080 --> 42:37.580]  You know, we call that chunking your time.
+[42:37.580 --> 42:41.640]  And so that once your time is chunked out, you don't have to worry about your newsletter.
+[42:41.640 --> 42:45.200]  You know, you can build out the newsletter for the entire year, do that all in one session
+[42:45.200 --> 42:46.640]  in one day or two days.
+[42:46.640 --> 42:47.640]  And it's all done.
+[42:47.640 --> 42:48.640]  Boom.
+[42:48.640 --> 42:49.640]  And then it's going to go out like clockwork.
+[42:49.640 --> 42:54.900]  And the wonderful thing about the smart list is that it's going to continue to add new
+[42:54.900 --> 42:55.900]  people to it.
+[42:55.900 --> 42:59.400]  And, you know, it will take away people as well if they unsubscribe and you don't have
+[42:59.400 --> 43:05.920]  to worry about whether or not, you know, you're adding people to the newsletter list or not.
+[43:05.920 --> 43:10.520]  So folks, the last thing that we're going to do here in our less than an hour setup of
+[43:10.520 --> 43:18.840]  our, of our, of our company with those five essential things is that we are going to
+[43:19.640 --> 43:24.640]  create a system for you to buy and sell, right?
+[43:24.640 --> 43:26.700]  So we already have connected Stripe.
+[43:26.700 --> 43:31.980]  And so you could come into the payment system here and you can see how easy it is to create.
+[43:31.980 --> 43:36.100]  The first thing I'm going to do is I'm going to create a product for people to buy.
+[43:36.100 --> 43:40.200]  And in my case, I'm going to, you know, you could create a coaching session here.
+[43:40.200 --> 43:43.560]  Hey, look, it's $500 coaching sessions, create a coaching session.[43:43.560 --> 43:45.500]  You could create an online class.
+[43:45.500 --> 43:49.160]  You could create, you know, a webinar, you could create anything, 
+any kind of digital product.
+[43:49.160 --> 43:50.920]  You can also do physical products.
+[43:50.920 --> 43:53.800]  Um, and in this case, I'm going to do something that's kind of a hybrid, right?
+[43:53.800 --> 44:11.600]  I'm going to actually create a product that is, um, my ebook and this is an, I'll put a description
+[44:11.600 --> 44:12.600]  for it.
+[44:12.600 --> 44:23.600]  Um, I'm going to actually, you know, put a little, um, where's that, we're going to upload
+[44:23.600 --> 44:24.600]  that.
+[44:24.600 --> 44:30.360]  So there's my cover photo, Shazam, we've added that you can, and you can do multiple files,
+[44:30.360 --> 44:31.360]  right?
+[44:31.360 --> 44:36.320]  Um, you know, 10 different images of your book or of the, you know, the sweater that
+[44:36.320 --> 44:39.000]  you're sending, or, you know, what other physical product you can 
+do that as well.
+[44:39.000 --> 44:40.120]  I'm going to put a price in here.
+[44:40.120 --> 44:46.120]  I'm going to say it's $25 and I'm going to save it.
+[44:46.120 --> 44:51.760]  So now we have a product that people can buy.
+[44:51.760 --> 44:54.380]  I think we do need to create a payment link.
+[44:54.380 --> 44:55.380]  Let's do that.
+[44:55.380 --> 44:57.680]  I'm going to select a product.
+[44:57.680 --> 45:00.640]  There's my ebook, right?
+[45:00.640 --> 45:03.620]  Allow coupon codes in case I want to create a coupon for them to get it for free.
+[45:03.620 --> 45:05.140]  Maybe that's what I want to do.
+[45:05.140 --> 45:17.760]  And I'm going to, we'll just call it the ebook and we'll save it.
+[45:17.760 --> 45:18.760]  Great.
+[45:18.760 --> 45:23.380]  Now, if I wanted to send that to somebody, I could just take this 
+payment link, send that
+[45:23.380 --> 45:26.360]  to a, send that to a client and Shazam.
+[45:26.360 --> 45:29.380]  This is actually live right now because my Stripe account is connected to it.
+[45:29.380 --> 45:32.560]  You could come by my ebook, uh, and you click on pay.
+[45:32.560 --> 45:37.740]  So what we would do is we would, we would then create another automation that says, you know,
+[45:37.740 --> 45:41.680]  when somebody actually buys this product, send them the ebook, right?
+[45:41.680 --> 45:43.060]  So that's, you would do that really quickly.
+[45:43.060 --> 45:49.080]  But now look, we just did that really quickly, but to get in under the hour mark, we've created
+[45:49.080 --> 45:52.560]  this product, but I want to go back and I want to show you, look, 
+we come to our site.
+[45:52.560 --> 45:57.480]  I'm going to go to my website, I'm going to open it up and I'm going to show you something
+[45:57.480 --> 46:00.600]  that's really, um, kind of interesting here.
+[46:00.600 --> 46:04.440]  Open up the homepage.
+[46:04.440 --> 46:08.760]  And then I'm going to click on this button right here.
+[46:08.760 --> 46:10.280]  And I'm going to click on store.
+[46:10.280 --> 46:13.180]  And so you can actually click, you can add an online store to your website.
+[46:13.180 --> 46:14.180]  This easy.
+[46:14.180 --> 46:15.560]  I'm going to click on add to sites.
+[46:15.560 --> 46:16.960]  You'll see that it's going to add.
+[46:16.960 --> 46:21.240]  And what, what it does here, you'll see already it's, it's in the 
+middle of the page here.
+[46:21.240 --> 46:26.760]  It's added that cart button.
+[46:26.760 --> 46:30.100]  It's going to add, um, an order feature.
+[46:30.100 --> 46:31.620]  It's going to create a catalog.
+[46:31.620 --> 46:33.440]  It's going to do all kinds of cool stuff.
+[46:33.440 --> 46:36.840]  So we'll just give it a few seconds to build those components.    
+[46:36.840 --> 46:42.140]  And now when we go back to our website, uh, overview, you can see 
+that it's, uh, created
+[46:42.140 --> 46:43.080]  a product list.
+[46:43.080 --> 46:48.800]  It's created a details, uh, um, template, a cart, a checkout and a thank you page for
+[46:48.800 --> 46:50.360]  when you make a purchase.
+[46:50.360 --> 47:00.460]  And then if we go into, um, our website again, we want to go to the menu and we'll go up, go
+[47:00.460 --> 47:03.080]  down to the menu and we're going to add an item.
+[47:03.080 --> 47:19.640]  Uh, we'll go to the product collection and we'll go to store and see them publish it.
+[47:19.640 --> 47:26.580]  Just refresh this store is here, we'll go to our products and you 
+can see here, um, obviously
+[47:26.580 --> 47:30.780]  I need to add my logo up here, but we can actually select this product.
+[47:30.780 --> 47:37.160]  We can add it to the cart, we can then view a cart, view our carts, go to checkout and
+[47:37.160 --> 47:38.160]  Shazam.
+[47:38.160 --> 47:40.900]  I can now buy this product, right?
+[47:40.900 --> 47:42.100]  Again, this is live.
+[47:42.100 --> 47:49.480]  It's connected to my Stripe account so you could buy this right now if you wanted to.
+[47:49.480 --> 47:50.480]  Amazing stuff.
+[47:50.480 --> 47:52.940]  So I just want to review here.
+[47:52.940 --> 47:56.260]  Um, here's what we've done over the last hour.
+[47:56.260 --> 48:02.640]  We have, uh, created a way to communicate with our client texts and clients.
+[48:02.640 --> 48:03.640]  All right.
+[48:03.640 --> 48:08.280]  So I go into conversations here, excuse me, I'm going to go to my 
+contacts and just so
+[48:08.280 --> 48:10.380]  that you can see what a conversation looks like.
+[48:10.380 --> 48:14.520]  I'll go to Auden.
+[48:14.520 --> 48:15.520]  And here we are Auden.
+[48:15.520 --> 48:16.520]  We can send, look at that.
+[48:16.520 --> 48:19.040]  We've already sent him a thank you for signing up email.
+[48:19.040 --> 48:27.380]  I can come in here and send him an email anytime I want and say, hi Auden, um, and click on
+[48:27.380 --> 48:30.800]  send and it's going to send him an, uh, it's going to send him an 
+email, Shazam, there it
+[48:30.800 --> 48:31.800]  is.
+[48:31.800 --> 48:34.500]  And you can, uh, reply, et cetera.
+[48:34.500 --> 48:40.440]  You can keep track, uh, of these conversations all here in one place.
+[48:40.440 --> 48:44.980]  It also synchronizes with your Gmail so that those conversations are happening in Gmail
+[48:44.980 --> 48:45.980]  as well.
+[48:45.980 --> 48:54.200]  And when you send, um, when you send the emails from Gmail, uh, uh, to those contacts as well,
+[48:54.200 --> 48:56.200]  uh, it's synchronized here on this platform.
+[48:56.200 --> 48:57.680]  We'll go back.
+[48:57.680 --> 48:58.680]  Sorry.
+[48:58.680 --> 48:59.680]  Yeah.
+[48:59.680 --> 49:00.680]  All right.
+[49:00.680 --> 49:06.440]  So we can, our communicating again, if I go to go back to contacts and I click on Dana,
+[49:06.440 --> 49:08.440]  I could say, hi Dana.
+[49:08.440 --> 49:11.020]  And again, I can have conversations with it.
+[49:11.020 --> 49:14.800]  It shows you what pages they visited, you know, it gives you a complete thing.
+[49:14.800 --> 49:19.040]  If you want to add a task for that particular individual, you can 
+add a task here. If you
+[49:19.040 --> 49:21.700]  have notes that you want to take up.
+[49:21.700 --> 49:27.920]  So it's a really comprehensive customer relationship management system, a CRM.
+[49:27.920 --> 49:34.140]  And so, um, I just want to recap here because we're coming to the 
+top of the hour, as I promised
+[49:34.140 --> 49:38.580]  in this platform, we have a way to communicate with our contacts effectively, right?
+[49:38.580 --> 49:41.020]  So we have a way to communicate with email.
+[49:41.020 --> 49:45.380]  We can add SMS to this platform without any problem.
+[49:45.380 --> 49:47.380]  And we didn't do direct messages as well.
+[49:47.380 --> 49:52.460]  Um, so we can add our direct messaging from Facebook or Instagram, et cetera.
+[49:52.460 --> 49:56.480]  We also have a way to sell, uh, request and receive payments easily.
+[49:56.480 --> 49:57.960]  So we come over to our payment section.
+[49:57.960 --> 50:00.740]  You saw the store that we have.
+[50:00.740 --> 50:13.520]  If we, um, if we go back to our store, right, um, go back to our store, uh, you, we have
+[50:13.520 --> 50:20.300]  that in our, in our website and it's ready to go.
+[50:20.300 --> 50:24.260]  There's our, there's our thing, uh, our book, and we can add that 
+to a cart.
+[50:24.260 --> 50:28.720]  Uh, the second, the third thing that we have, oh, and I'm sorry, just, uh, you know, you
+[50:28.720 --> 50:29.720]  can put any product in here.
+[50:29.720 --> 50:33.840]  So this could be a coaching, uh, um, session.
+[50:33.840 --> 50:35.880]  This could be a group class.
+[50:35.880 --> 50:37.040]  This could be a webinar.
+[50:37.040 --> 50:40.100]  Uh, it doesn't have to be this, or it could be any physical product as well.
+[50:40.100 --> 50:41.440]  So you have a way to do that.
+[50:41.440 --> 50:45.460]  You could also send invoices and you can, you can sign contracts as well.
+[50:45.460 --> 50:48.920]  That's all automatically integrated in this platform.
+[50:48.920 --> 50:54.420]  The fourth thing, uh, sorry, the third thing is that you needed a 
+system to grow and nurture
+[50:54.420 --> 50:55.700]  your audience on autopilot.
+[50:55.700 --> 51:04.300]  So as you saw, we added a, um, uh, we added a, uh, a newsletter, right?
+[51:04.300 --> 51:06.320]  So people can sign up for your newsletter.
+[51:06.320 --> 51:08.960]  Then we can nurture them over time through those automations.     
+[51:08.960 --> 51:15.460]  We also have a way for them to, um, contact us whenever we want, but that's the, that
+[51:15.460 --> 51:18.500]  was the, that was the fifth thing is an appointment setting and time management system, right?
+[51:18.500 --> 51:20.700]  So it's connected to our calendar.
+[51:20.700 --> 51:26.800]  And so somebody can not only come and, um, book a book a time with us, but then, you know,
+[51:26.800 --> 51:29.480]  it's checking to make sure that we have that time available.      
+[51:29.480 --> 51:34.500]  And then it's sending them, sending them that those, uh, automated emails automatically
+[51:34.500 --> 51:36.440]  to remind them of that appointment.
+[51:36.440 --> 51:41.120]  And then, um, the, the thing that we wanted to make sure that we do as well is that we
+[51:41.120 --> 51:42.680]  had our own space on the internet.
+[51:42.680 --> 51:46.820]  And you saw, you can build an entire website here in just a few minutes.
+[51:46.820 --> 51:49.900]  And all you have to do is, you know, replace some pictures, replace some texts.
+[51:49.900 --> 51:55.040]  You can remove any sections that you don't want in, in with the click of a button and you're
+[51:55.040 --> 51:56.200]  ready to go.
+[51:56.200 --> 52:01.900]  So there we've done it folks, uh, in less than an hour, uh, more like 45 minutes we have done.
+[52:01.900 --> 52:07.080]  And we have achieved all of those things that were promised on this platform.
+[52:07.080 --> 52:08.080]  And I hope you'll join us.
+[52:08.080 --> 52:09.940]  So, uh, you know, go back to the training.
+[52:09.940 --> 52:11.400]  I'd love to show you how to set this up.
+[52:11.400 --> 52:12.840]  I'd love to do an audit for you.
+[52:12.840 --> 52:15.480]  I would love for you to, to work with me.
+[52:15.480 --> 52:19.160]  I'm happy to show you how to get into this platform, uh, for less 
+than a hundred dollars
+[52:19.160 --> 52:21.900]  a month and run your coaching business from here.
+[52:21.900 --> 52:24.480]  Uh, let's do it.
+[52:24.480 --> 52:36.060]  And let's do it.
+[52:36.060 --> 52:41.060]  Okay.

@@ -1,0 +1,4 @@
+videos/
+agents/.adk/
+__pycache__/
+*.pyc
