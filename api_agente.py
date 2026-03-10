@@ -14,6 +14,13 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+# OpenAI para LLM
+try:
+    from openai import OpenAI
+    openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+except Exception:
+    openai_client = None
+
 # Agregar path
 base_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, base_dir)
@@ -87,27 +94,106 @@ SESSION_MEMORY = {}
 SESSION_LOCK = Lock()
 
 
+_ACCENT_MAP = str.maketrans({
+    "á": "a",
+    "à": "a",
+    "ä": "a",
+    "â": "a",
+    "ã": "a",
+    "é": "e",
+    "è": "e",
+    "ë": "e",
+    "ê": "e",
+    "í": "i",
+    "ì": "i",
+    "ï": "i",
+    "î": "i",
+    "ó": "o",
+    "ò": "o",
+    "ö": "o",
+    "ô": "o",
+    "õ": "o",
+    "ú": "u",
+    "ù": "u",
+    "ü": "u",
+    "û": "u",
+    "ñ": "n",
+})
+
+
+# Contexto del agente para OpenAI
+AGENT_CONTEXT = """
+Eres el asistente virtual de Message Design, una agencia especializada en soluciones de comunicación automatizada para negocios.
+
+SERVICIOS:
+1. Sistema de Reseñas Google - Automatización de solicitud de reseñas 5 estrellas
+2. WhatsApp Business API - Chatbots, CRM integrado, mensajes automatizados
+3. Calendario de Citas - Agendamiento automático
+4. Suite Completa - Todos los servicios anteriores
+
+INFORMACIÓN IMPORTANTE:
+- Precios: Básico $800-1000 MXN/mes, Intermedio $1200-1500 MXN/mes, Completo $1800-2500 MXN/mes
+- Proceso de onboarding: 1-7 días dependiendo servicios
+- Documentos necesarios: Acta constitutiva, ID representante, Comprobante de domicilio, Acceso a Google Business
+
+CÓMO RESPONDER:
+- Sé amigable y profesional
+- pregunta sobre el negocio del cliente para recomendar el mejor servicio
+- Si preguntan por pasos, da información detallada
+- Si no sabes algo, sugiere contactar a un asesor
+"""
+
+
+def _get_llm_response(mensaje: str, historial: list = None) -> str:
+    """Genera respuesta usando OpenAI GPT"""
+    if not openai_client:
+        return None
+    
+    messages = [
+        {"role": "system", "content": AGENT_CONTEXT}
+    ]
+    
+    # Agregar historial si existe
+    if historial:
+        for h in historial[-5:]:  # últimos 5 mensajes
+            messages.append(h)
+    
+    messages.append({"role": "user", "content": mensaje})
+    
+    try:
+        response = openai_client.chat.completions.create(
+            model="gpt-4o-mini",  # Más económico
+            messages=messages,
+            max_tokens=500,
+            temperature=0.7
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"Error OpenAI: {e}")
+        return None
+
+
 def _norm(texto: str) -> str:
-    return (texto or "").lower().strip()
+    t = (texto or "").lower().strip()
+    return t.translate(_ACCENT_MAP)
 
 
 def _is_affirmative(texto: str) -> bool:
     t = _norm(texto)
     return (
-        t in {"si", "sÃ­", "sii", "ok", "claro", "adelante", "continuar"}
+        t in {"si", "sii", "ok", "claro", "adelante", "continuar"}
         or "si, continuar" in t
-        or "sÃ­, continuar" in t
     )
 
 
 def _is_more_info(texto: str) -> bool:
     t = _norm(texto)
-    return "mas informacion" in t or "mÃ¡s informaciÃ³n" in t or "paso a paso" in t or "pasos" in t
+    return "mas informacion" in t or "paso a paso" in t or "pasos" in t
 
 
 def _service_from_message(texto: str) -> Optional[str]:
     t = _norm(texto)
-    if "reseÃ±a" in t or "resena" in t or "reseÃ±as" in t or "resenas" in t:
+    if "resena" in t or "resenas" in t:
         return "resenas"
     if "whatsapp" in t:
         return "whatsapp_api"
@@ -134,7 +220,6 @@ def _is_kb_intent(texto: str) -> bool:
         "meta",
         "business manager",
         "verificacion",
-        "verificaci",
         "documentos",
         "system phone",
         "numero",
@@ -269,14 +354,34 @@ def chat(request: MensajeRequest):
     """
     Endpoint principal para chat con memoria simple por session_id.
     """
-    mensaje = _norm(request.mensaje)
+    mensaje = request.mensaje
+    mensaje_norm = _norm(mensaje)
     session_id = request.session_id or "default"
     session = _get_session(session_id)
-    selected_service = _service_from_message(mensaje)
+    
+    # Obtener historial de la sesión
+    historial = session.get("historial", [])
+    
+    # Intentar usar LLM primero
+    llm_response = _get_llm_response(mensaje, historial)
+    if llm_response:
+        # Guardar en historial
+        historial.append({"role": "user", "content": mensaje})
+        historial.append({"role": "assistant", "content": llm_response})
+        session["historial"] = historial[-10:]  # mantener últimos 10
+        return {
+            "respuesta": llm_response,
+            "opciones": ["Reseñas", "WhatsApp", "Calendario", "Suite Completa"],
+            "session_state": session,
+            "fuente": "llm"
+        }
+    
+    # Si no hay LLM, usar lógica de keywords
+    selected_service = _service_from_message(mensaje_norm)
 
-    # RAG preferente cuando la intencion es documental
+    # RAG siempre que haya resultados (chat interno)
     rag_result = _rag_answer(mensaje, top_k=4)
-    if rag_result and _is_kb_intent(mensaje):
+    if rag_result:
         return {
             "respuesta": rag_result["respuesta"],
             "opciones": ["Reseñas", "WhatsApp", "Calendario", "Suite"],
@@ -554,6 +659,7 @@ if __name__ == "__main__":
     import uvicorn
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
 
 
 
