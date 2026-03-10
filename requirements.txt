@@ -4,3 +4,4 @@ python-dotenv
 google-adk
 openai
 pydantic
+pytest
