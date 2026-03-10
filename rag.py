@@ -5,16 +5,6 @@ from typing import List
 
 import numpy as np
 
-try:
-    import faiss
-except Exception:
-    faiss = None
-
-try:
-    from sentence_transformers import SentenceTransformer
-except Exception:
-    SentenceTransformer = None
-
 
 INDEX_DIR = os.path.join(os.path.dirname(__file__), "data", "docs_index")
 INDEX_PATH = os.path.join(INDEX_DIR, "faiss.index")
@@ -38,8 +28,10 @@ _meta = None
 def _get_model():
     global _model
     if _model is None:
-        if SentenceTransformer is None:
-            raise RuntimeError("sentence-transformers not installed")
+        try:
+            from sentence_transformers import SentenceTransformer
+        except Exception as e:
+            raise RuntimeError("sentence-transformers not installed") from e
         _model = SentenceTransformer(MODEL_NAME, local_files_only=True)
     return _model
 
@@ -48,8 +40,10 @@ def _load_index():
     global _index, _meta
     if _index is not None and _meta is not None:
         return _index, _meta
-    if faiss is None:
-        raise RuntimeError("faiss not installed")
+    try:
+        import faiss
+    except Exception as e:
+        raise RuntimeError("faiss not installed") from e
     if not (os.path.exists(INDEX_PATH) and os.path.exists(META_PATH)):
         return None, None
     _index = faiss.read_index(INDEX_PATH)

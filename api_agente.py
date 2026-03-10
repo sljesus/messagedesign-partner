@@ -23,11 +23,7 @@ env_path = os.path.join(base_dir, "agents", ".env")
 if os.path.exists(env_path):
     load_dotenv(env_path)
 
-# Optional RAG (local index over docs/)
-try:
-    import rag
-except Exception:
-    rag = None
+# Optional RAG (local index over docs/) - lazy import inside _rag_answer
 
 # Importar herramientas del agente
 try:
@@ -168,7 +164,9 @@ def _service_steps(service_key: Optional[str]) -> str:
 
 
 def _rag_answer(query: str, top_k: int = 4) -> Optional[dict]:
-    if rag is None:
+    try:
+        import rag
+    except Exception:
         return None
     try:
         hits = rag.search(query, top_k=top_k)
