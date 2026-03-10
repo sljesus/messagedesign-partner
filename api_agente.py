@@ -93,17 +93,21 @@ def _norm(texto: str) -> str:
 
 def _is_affirmative(texto: str) -> bool:
     t = _norm(texto)
-    return t in {"si", "sí", "ok", "claro", "adelante", "continuar"} or "si, continuar" in t or "sí, continuar" in t
+    return (
+        t in {"si", "sÃ­", "sii", "ok", "claro", "adelante", "continuar"}
+        or "si, continuar" in t
+        or "sÃ­, continuar" in t
+    )
 
 
 def _is_more_info(texto: str) -> bool:
     t = _norm(texto)
-    return "mas informacion" in t or "más información" in t or "paso a paso" in t or "pasos" in t
+    return "mas informacion" in t or "mÃ¡s informaciÃ³n" in t or "paso a paso" in t or "pasos" in t
 
 
 def _service_from_message(texto: str) -> Optional[str]:
     t = _norm(texto)
-    if "reseña" in t or "resena" in t or "reseñas" in t or "resenas" in t:
+    if "reseÃ±a" in t or "resena" in t or "reseÃ±as" in t or "resenas" in t:
         return "resenas"
     if "whatsapp" in t:
         return "whatsapp_api"
@@ -111,6 +115,13 @@ def _service_from_message(texto: str) -> Optional[str]:
         return "suite"
     if "calendario" in t:
         return "calendario"
+    return None
+
+
+def _is_service_switch(texto: str, current: Optional[str]) -> Optional[str]:
+    target = _service_from_message(texto)
+    if target and target != current:
+        return target
     return None
 
 
@@ -240,9 +251,10 @@ def chat(request: MensajeRequest):
     mensaje = _norm(request.mensaje)
     session_id = request.session_id or "default"
     session = _get_session(session_id)
+    selected_service = _service_from_message(mensaje)
 
     # Continuidad por etapa
-    if _is_affirmative(mensaje) and session.get("stage") == "awaiting_service_decision":
+    if selected_service is None and _is_affirmative(mensaje) and session.get("stage") == "awaiting_service_decision":
         with SESSION_LOCK:
             session["stage"] = "awaiting_docs_confirmation"
             session["last_intent"] = "continue_after_service"
@@ -256,7 +268,7 @@ def chat(request: MensajeRequest):
             "session_state": session,
         }
 
-    if _is_more_info(mensaje) and session.get("selected_service"):
+    if selected_service is None and _is_more_info(mensaje) and session.get("selected_service"):
         with SESSION_LOCK:
             session["stage"] = "awaiting_service_decision"
             session["last_intent"] = "more_info"
@@ -266,8 +278,7 @@ def chat(request: MensajeRequest):
             "session_state": session,
         }
 
-    # Seleccion de servicio (hilo principal)
-    selected_service = _service_from_message(mensaje)
+    # Seleccion o cambio de servicio (hilo principal)
     if selected_service == "resenas":
         try:
             resultado = generar_checklist(["resenas"])
@@ -424,6 +435,17 @@ def chat(request: MensajeRequest):
             "session_state": session,
         }
 
+    if session.get("stage") == "awaiting_missing_doc_detail":
+        if "numero" in mensaje or "tel" in mensaje or "telefono" in mensaje:
+            return {
+                "respuesta": (
+                    "Sobre el numero dedicado: debe ser un numero exclusivo para WhatsApp API "
+                    "(no puede estar activo en WhatsApp normal). Si no tienes uno, te ayudamos a adquirirlo."
+                ),
+                "opciones": ["Necesito ayuda para conseguirlo", "Ya tengo numero dedicado"],
+                "session_state": session,
+            }
+
     # Fallback con continuidad de hilo
     if session.get("selected_service") and session.get("stage") in {
         "awaiting_service_decision",
@@ -510,3 +532,7 @@ if __name__ == "__main__":
     import uvicorn
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+
+
+
