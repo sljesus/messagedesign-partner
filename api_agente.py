@@ -125,6 +125,27 @@ def _is_service_switch(texto: str, current: Optional[str]) -> Optional[str]:
     return None
 
 
+def _is_kb_intent(texto: str) -> bool:
+    t = _norm(texto)
+    keywords = [
+        "google business",
+        "google",
+        "facebook",
+        "meta",
+        "business manager",
+        "verificacion",
+        "verificaci",
+        "documentos",
+        "system phone",
+        "numero",
+        "telefono",
+        "whatsapp",
+        "dominio",
+        "dns",
+    ]
+    return any(k in t for k in keywords)
+
+
 def _service_label(service_key: Optional[str]) -> str:
     labels = {
         "resenas": "Reseñas",
@@ -252,6 +273,16 @@ def chat(request: MensajeRequest):
     session_id = request.session_id or "default"
     session = _get_session(session_id)
     selected_service = _service_from_message(mensaje)
+
+    # RAG preferente cuando la intencion es documental
+    rag_result = _rag_answer(mensaje, top_k=4)
+    if rag_result and _is_kb_intent(mensaje):
+        return {
+            "respuesta": rag_result["respuesta"],
+            "opciones": ["Reseñas", "WhatsApp", "Calendario", "Suite"],
+            "fuentes": rag_result.get("fuentes", []),
+            "session_state": session,
+        }
 
     # Continuidad por etapa
     if selected_service is None and _is_affirmative(mensaje) and session.get("stage") == "awaiting_service_decision":
@@ -458,15 +489,6 @@ def chat(request: MensajeRequest):
                 "¿Quieres paso a paso, documentos requeridos o tiempo estimado?"
             ),
             "opciones": ["Paso a paso", "Documentos", "Tiempo estimado"],
-            "session_state": session,
-        }
-
-    rag_result = _rag_answer(mensaje, top_k=4)
-    if rag_result:
-        return {
-            "respuesta": rag_result["respuesta"],
-            "opciones": ["Reseñas", "WhatsApp", "Calendario", "Suite"],
-            "fuentes": rag_result.get("fuentes", []),
             "session_state": session,
         }
 
