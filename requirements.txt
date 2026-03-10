@@ -5,3 +5,6 @@ google-adk
 openai
 pydantic
 pytest
+numpy
+faiss-cpu
+sentence-transformers

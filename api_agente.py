@@ -23,6 +23,12 @@ env_path = os.path.join(base_dir, "agents", ".env")
 if os.path.exists(env_path):
     load_dotenv(env_path)
 
+# Optional RAG (local index over docs/)
+try:
+    import rag
+except Exception:
+    rag = None
+
 # Importar herramientas del agente
 try:
     from agents.onboarding.onboarding_tools import (
@@ -72,6 +78,11 @@ class TiempoRequest(BaseModel):
     servicios: list
     num_clientes: int = 1
     complejidad: str = "media"
+
+
+class KbQueryRequest(BaseModel):
+    query: str
+    top_k: int = 4
 
 
 # Memoria simple por sesion (en proceso).
@@ -156,6 +167,29 @@ def _service_steps(service_key: Optional[str]) -> str:
     )
 
 
+def _rag_answer(query: str, top_k: int = 4) -> Optional[dict]:
+    if rag is None:
+        return None
+    try:
+        hits = rag.search(query, top_k=top_k)
+    except Exception:
+        return None
+    if not hits:
+        return None
+    bullets = []
+    sources = []
+    for h in hits:
+        snippet = h.text.strip().replace("\n", " ")
+        if len(snippet) > 350:
+            snippet = snippet[:347] + "..."
+        bullets.append(f"- {snippet}")
+        sources.append(h.source)
+    return {
+        "respuesta": "Encontre en la documentacion:\n" + "\n".join(bullets),
+        "fuentes": list(dict.fromkeys(sources)),
+    }
+
+
 def _get_session(session_id: str) -> dict:
     with SESSION_LOCK:
         session = SESSION_MEMORY.setdefault(
@@ -187,6 +221,17 @@ def root():
 @app.get("/health")
 def health():
     return {"status": "healthy"}
+
+
+@app.post("/kb_query")
+def kb_query(request: KbQueryRequest):
+    """
+    Consulta el indice local de docs/ (RAG).
+    """
+    result = _rag_answer(request.query, top_k=request.top_k)
+    if result is None:
+        return {"success": False, "data": [], "message": "No hay indice o no hay resultados"}
+    return {"success": True, "data": result}
 
 
 @app.post("/chat")
@@ -393,6 +438,15 @@ def chat(request: MensajeRequest):
                 "¿Quieres paso a paso, documentos requeridos o tiempo estimado?"
             ),
             "opciones": ["Paso a paso", "Documentos", "Tiempo estimado"],
+            "session_state": session,
+        }
+
+    rag_result = _rag_answer(mensaje, top_k=4)
+    if rag_result:
+        return {
+            "respuesta": rag_result["respuesta"],
+            "opciones": ["Reseñas", "WhatsApp", "Calendario", "Suite"],
+            "fuentes": rag_result.get("fuentes", []),
             "session_state": session,
         }
 

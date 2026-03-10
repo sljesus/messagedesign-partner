@@ -11,6 +11,9 @@ venv/
 env/
 .venv/
 
+# RAG index
+data/docs_index/
+
 # Python caches
 .pytest_cache/
 .mypy_cache/
